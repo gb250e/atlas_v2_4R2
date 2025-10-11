@@ -2,8 +2,8 @@
   "default": {
     "version": "2.4R2",
     "system_class": "spin",
-    "epsilon_caus": "from_anchor",
-    "v_LR": "from_anchor",
+    "epsilon_caus": 0.0008,
+    "v_LR": 2.0,
     "causality_profile": {
       "type": "lr"
     },
@@ -11,7 +11,11 @@
     "anchor_distance_hard": 0.3,
     "anchor_metric": {
       "type": "relative_l2",
-      "scales": "from_anchor_or_units",
+      "scales": {
+        "J": 1.0,
+        "h": 1.0,
+        "beta": 1.0
+      },
       "scales_fallback": "mad"
     },
     "tau_delta": 0.15,
@@ -24,7 +28,7 @@
       "op_probe": {
         "enable": true,
         "max_iters": 64,
-        "tol": 1e-08,
+        "tol": 1E-8,
         "restarts": 3,
         "seed": 1337,
         "on_nonconverge": "INCONCLUSIVE"
@@ -46,9 +50,9 @@
         "split_halves": true,
         "sign_consistency": true
       },
-      "regularization_epsilon": 1e-06,
+      "regularization_epsilon": 0.000001,
       "regularization_epsilon_range": [
-        1e-08,
+        1E-8,
         0.0001
       ],
       "epsilon_scaling": "fixed",
@@ -120,7 +124,7 @@
       "tg_independence": {
         "require": true,
         "frobenius_tol": 0.001,
-        "orthogonality_tol": 1e-06,
+        "orthogonality_tol": 0.000001,
         "log_required": true
       }
     },
@@ -133,7 +137,7 @@
     },
     "windows": {
       "samples": 1024,
-      "tau": "specify in units"
+      "tau": 0.05
     },
     "determinism": {
       "rng_name": "Philox",
@@ -141,8 +145,8 @@
       "parallel_mode": "counter",
       "thread_offset": 1000,
       "dtype": "float64",
-      "rtol": 1e-10,
-      "atol": 1e-14,
+      "rtol": 1E-10,
+      "atol": 1E-14,
       "ulp_max": 8,
       "build": {
         "fp_contract": "off"
@@ -231,7 +235,7 @@
       "roc": {
         "kfold": 5,
         "external_validation_required": true,
-        "external_set_doi": "TBD"
+        "external_set_doi": "10.5281/zenodo.REPLACE_ME"
       }
     },
     "log_format": {
@@ -298,8 +302,8 @@
           "defaults": {
             "determinism.rng_name": "Philox",
             "determinism.dtype": "float64",
-            "determinism.rtol": 1e-10,
-            "determinism.atol": 1e-14,
+            "determinism.rtol": 1E-10,
+            "determinism.atol": 1E-14,
             "determinism.ulp_max": 8
           }
         },
@@ -360,8 +364,8 @@
     "default": {
       "version": "2.4R2",
       "system_class": "spin",
-      "epsilon_caus": "from_anchor",
-      "v_LR": "from_anchor",
+      "epsilon_caus": 0.0008,
+      "v_LR": 2.0,
       "causality_profile": {
         "type": "lr"
       },
@@ -369,7 +373,11 @@
       "anchor_distance_hard": 0.3,
       "anchor_metric": {
         "type": "relative_l2",
-        "scales": "from_anchor_or_units",
+        "scales": {
+          "J": 1.0,
+          "h": 1.0,
+          "beta": 1.0
+        },
         "scales_fallback": "mad"
       },
       "tau_delta": 0.15,
@@ -382,7 +390,7 @@
         "op_probe": {
           "enable": true,
           "max_iters": 64,
-          "tol": 1e-08,
+          "tol": 1E-8,
           "restarts": 3,
           "seed": 1337,
           "on_nonconverge": "INCONCLUSIVE"
@@ -404,9 +412,9 @@
           "split_halves": true,
           "sign_consistency": true
         },
-        "regularization_epsilon": 1e-06,
+        "regularization_epsilon": 0.000001,
         "regularization_epsilon_range": [
-          1e-08,
+          1E-8,
           0.0001
         ],
         "epsilon_scaling": "fixed",
@@ -478,7 +486,7 @@
         "tg_independence": {
           "require": true,
           "frobenius_tol": 0.001,
-          "orthogonality_tol": 1e-06,
+          "orthogonality_tol": 0.000001,
           "log_required": true
         }
       },
@@ -491,7 +499,7 @@
       },
       "windows": {
         "samples": 1024,
-        "tau": "specify in units"
+        "tau": 0.05
       },
       "determinism": {
         "rng_name": "Philox",
@@ -499,8 +507,8 @@
         "parallel_mode": "counter",
         "thread_offset": 1000,
         "dtype": "float64",
-        "rtol": 1e-10,
-        "atol": 1e-14,
+        "rtol": 1E-10,
+        "atol": 1E-14,
         "ulp_max": 8,
         "build": {
           "fp_contract": "off"
@@ -589,7 +597,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.REPLACE_ME"
         }
       },
       "log_format": {
@@ -656,8 +664,8 @@
             "defaults": {
               "determinism.rng_name": "Philox",
               "determinism.dtype": "float64",
-              "determinism.rtol": 1e-10,
-              "determinism.atol": 1e-14,
+              "determinism.rtol": 1E-10,
+              "determinism.atol": 1E-14,
               "determinism.ulp_max": 8
             }
           },
@@ -739,7 +747,7 @@
         "op_probe": {
           "enable": true,
           "max_iters": 64,
-          "tol": 1e-08,
+          "tol": 1E-8,
           "restarts": 3,
           "seed": 1337,
           "on_nonconverge": "INCONCLUSIVE"
@@ -761,9 +769,9 @@
           "split_halves": true,
           "sign_consistency": true
         },
-        "regularization_epsilon": 1e-06,
+        "regularization_epsilon": 0.000001,
         "regularization_epsilon_range": [
-          1e-08,
+          1E-8,
           0.0001
         ],
         "epsilon_scaling": "fixed",
@@ -835,7 +843,7 @@
         "tg_independence": {
           "require": true,
           "frobenius_tol": 0.001,
-          "orthogonality_tol": 1e-06,
+          "orthogonality_tol": 0.000001,
           "log_required": true
         }
       },
@@ -856,8 +864,8 @@
         "parallel_mode": "counter",
         "thread_offset": 1000,
         "dtype": "float64",
-        "rtol": 1e-10,
-        "atol": 1e-14,
+        "rtol": 1E-10,
+        "atol": 1E-14,
         "ulp_max": 8,
         "build": {
           "fp_contract": "off"
@@ -1013,8 +1021,8 @@
             "defaults": {
               "determinism.rng_name": "Philox",
               "determinism.dtype": "float64",
-              "determinism.rtol": 1e-10,
-              "determinism.atol": 1e-14,
+              "determinism.rtol": 1E-10,
+              "determinism.atol": 1E-14,
               "determinism.ulp_max": 8
             }
           },
@@ -1096,7 +1104,7 @@
         "op_probe": {
           "enable": true,
           "max_iters": 64,
-          "tol": 1e-08,
+          "tol": 1E-8,
           "restarts": 3,
           "seed": 1337,
           "on_nonconverge": "INCONCLUSIVE"
@@ -1118,9 +1126,9 @@
           "split_halves": true,
           "sign_consistency": true
         },
-        "regularization_epsilon": 1e-06,
+        "regularization_epsilon": 0.000001,
         "regularization_epsilon_range": [
-          1e-08,
+          1E-8,
           0.0001
         ],
         "epsilon_scaling": "fixed",
@@ -1192,7 +1200,7 @@
         "tg_independence": {
           "require": true,
           "frobenius_tol": 0.001,
-          "orthogonality_tol": 1e-06,
+          "orthogonality_tol": 0.000001,
           "log_required": true
         }
       },
@@ -1213,8 +1221,8 @@
         "parallel_mode": "counter",
         "thread_offset": 1000,
         "dtype": "float64",
-        "rtol": 1e-10,
-        "atol": 1e-14,
+        "rtol": 1E-10,
+        "atol": 1E-14,
         "ulp_max": 8,
         "build": {
           "fp_contract": "off"
@@ -1370,8 +1378,8 @@
             "defaults": {
               "determinism.rng_name": "Philox",
               "determinism.dtype": "float64",
-              "determinism.rtol": 1e-10,
-              "determinism.atol": 1e-14,
+              "determinism.rtol": 1E-10,
+              "determinism.atol": 1E-14,
               "determinism.ulp_max": 8
             }
           },
@@ -1453,7 +1461,7 @@
         "op_probe": {
           "enable": true,
           "max_iters": 64,
-          "tol": 1e-08,
+          "tol": 1E-8,
           "restarts": 3,
           "seed": 1337,
           "on_nonconverge": "INCONCLUSIVE"
@@ -1475,9 +1483,9 @@
           "split_halves": true,
           "sign_consistency": true
         },
-        "regularization_epsilon": 1e-06,
+        "regularization_epsilon": 0.000001,
         "regularization_epsilon_range": [
-          1e-08,
+          1E-8,
           0.0001
         ],
         "epsilon_scaling": "fixed",
@@ -1549,7 +1557,7 @@
         "tg_independence": {
           "require": true,
           "frobenius_tol": 0.001,
-          "orthogonality_tol": 1e-06,
+          "orthogonality_tol": 0.000001,
           "log_required": true
         }
       },
@@ -1570,8 +1578,8 @@
         "parallel_mode": "counter",
         "thread_offset": 1000,
         "dtype": "float64",
-        "rtol": 1e-10,
-        "atol": 1e-14,
+        "rtol": 1E-10,
+        "atol": 1E-14,
         "ulp_max": 8,
         "build": {
           "fp_contract": "off"
@@ -1727,8 +1735,8 @@
             "defaults": {
               "determinism.rng_name": "Philox",
               "determinism.dtype": "float64",
-              "determinism.rtol": 1e-10,
-              "determinism.atol": 1e-14,
+              "determinism.rtol": 1E-10,
+              "determinism.atol": 1E-14,
               "determinism.ulp_max": 8
             }
           },
@@ -1810,7 +1818,7 @@
         "op_probe": {
           "enable": true,
           "max_iters": 64,
-          "tol": 1e-08,
+          "tol": 1E-8,
           "restarts": 3,
           "seed": 1337,
           "on_nonconverge": "INCONCLUSIVE"
@@ -1832,9 +1840,9 @@
           "split_halves": true,
           "sign_consistency": true
         },
-        "regularization_epsilon": 1e-06,
+        "regularization_epsilon": 0.000001,
         "regularization_epsilon_range": [
-          1e-08,
+          1E-8,
           0.0001
         ],
         "epsilon_scaling": "fixed",
@@ -1908,7 +1916,7 @@
         "tg_independence": {
           "require": true,
           "frobenius_tol": 0.001,
-          "orthogonality_tol": 1e-06,
+          "orthogonality_tol": 0.000001,
           "log_required": true
         }
       },
@@ -1929,8 +1937,8 @@
         "parallel_mode": "counter",
         "thread_offset": 1000,
         "dtype": "float64",
-        "rtol": 1e-09,
-        "atol": 1e-13,
+        "rtol": 1E-9,
+        "atol": 1E-13,
         "ulp_max": 16,
         "build": {
           "fp_contract": "off"
@@ -2086,8 +2094,8 @@
             "defaults": {
               "determinism.rng_name": "Philox",
               "determinism.dtype": "float64",
-              "determinism.rtol": 1e-10,
-              "determinism.atol": 1e-14,
+              "determinism.rtol": 1E-10,
+              "determinism.atol": 1E-14,
               "determinism.ulp_max": 8
             }
           },
