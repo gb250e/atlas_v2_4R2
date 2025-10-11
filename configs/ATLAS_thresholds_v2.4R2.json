@@ -235,7 +235,7 @@
       "roc": {
         "kfold": 5,
         "external_validation_required": true,
-        "external_set_doi": "10.5281/zenodo.REPLACE_ME"
+        "external_set_doi": "10.5281/zenodo.17328804"
       }
     },
     "log_format": {
@@ -597,7 +597,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "10.5281/zenodo.REPLACE_ME"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       },
       "log_format": {
@@ -954,7 +954,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       },
       "log_format": {
@@ -1311,7 +1311,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       },
       "log_format": {
@@ -1668,7 +1668,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       },
       "log_format": {
@@ -2027,7 +2027,7 @@
         "roc": {
           "kfold": 5,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       },
       "log_format": {
