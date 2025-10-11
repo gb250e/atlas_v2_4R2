@@ -1,0 +1,640 @@
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.258014699228488, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0228776011359251, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12225111804768152, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20371582238532912, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05092456703350989, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0120929081259239, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09127094850717596, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04951677962560833, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.049219495865149995, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.7994042912800032}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.189539881178642, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0061399383966599975, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16080672690114736, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.1931989878954066}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18964924823431245, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024216195875882623, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14330098238293465, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3743261195398677}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1205665531771725, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0253481776345198, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11800122602799179, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.155370286935773}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1955773639099813, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02626838114415955, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12976793803296885, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4146083578081998}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21953260905344374, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.008720215820294398, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.13403806930554285, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.318977521714423}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.26685625929152346, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04256668407062478, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0018548312085862398, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1702623478321548, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04625807651378851, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.17289916670087319, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1535492701591397, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03338440254367433, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16294425198473014, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.345674925967209}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2148188704472884, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.010060626813102843, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1773642308656374, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3166691696219899}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.25685036193396915, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02487322253486451, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16773091787649566, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20278341494823726, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05212039967833024, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1491070831296442, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1336889187925225, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027758324565462705, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.044003502087360674, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.7232129749630354}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16306357004445, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.050016680989367575, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.043212910182423216, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21074056960201112, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024719185245216296, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.18989917068211026, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4496604177922001}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08724467894015195, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07208162566441328, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04267085044697247, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14867903650424047, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.013198399066175004, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1670691897047518, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1275807790092183}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16281765023265637, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024554890184462854, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10472979442727418, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2882744026201498}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19694843766903955, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03887850528517147, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.022430910936518396, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16844599800608828, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030093777239814896, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.025385880327367782, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 0.8624244324184434}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21673496381747814, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.010757136398342505, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.18806218227712662, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.330021243375019}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21202360387676433, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018282938963954286, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.18243665506360468, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.389574735895424}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.22933136752313737, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028497627650594926, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1675487000723512, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18287157864183784, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021782834267432848, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14807529269580347, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3274002714804547}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21996159815852523, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.007980880325428014, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14307463682907343, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3130141304493643}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12776705082447626, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07594888912733586, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.03958784836047805, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18884405384191483, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0264271316665119, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1333108863569079, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3937514961381685}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2634709319798868, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0003305641039957827, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12126784051674841, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3815420809729138}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1898300895367217, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.052042202916115, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.014096567330277594, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2372936554857686, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.013487263344113607, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16181612375888094, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.425851485060365}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21347149529909965, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05350253396887791, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12026517590780039, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21456420594788544, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018075142472358325, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11033934669864721, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3959654445498682}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21900048334697966, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.014661360525109373, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1484105468900003, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3766152164076926}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2346114626609737, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02236175482498556, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16510976137655245, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19717452044820574, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030416722649838544, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12783366982414124, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4614156279924047}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24055144268945666, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.046846400570337315, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1671277129720044, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2387763585294904, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024179662290258464, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1181759714311113, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.219481748183485, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018977764605624507, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1275689041990373, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4213834733345285}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18957400998211377, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0715454164435879, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.03701411004026708, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21236667497885928, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04812569405185728, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04449656715928674, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1964925074075442, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02367940625124205, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14598711548023166, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3917690872042345}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2298155253435986, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04571534569954236, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14390262566021436, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2251745712130973, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0029604998874744465, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.18715711831963294, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2801869029184023}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23633874089613027, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.08699927486756391, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04364058310507578, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24852099895290783, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.020812911222649645, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11887302284974197, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23998948906127202, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03621153643583373, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07373965230013718, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2705113228099062, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.017143587334227228, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1409565859500283, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24127351044083137, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.010424052364909274, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12007661820696325, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.408485558451864}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18124380548345725, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030729352491936264, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04049942862334636, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 0.9114395431975535}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15685837817141188, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.009180765463615233, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12989465728971114, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.1146689152075253}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23933515514799397, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03566063102396651, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.13941156773533234, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18517661692099893, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05267554373330839, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.058990821002961734, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.22226555399785433, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.020702924345373262, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1602916459343953, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4479144234465804}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2878747750484875, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02084058029237079, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11013241368723364, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14365860577868372, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.08387293940229693, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.029151373696882844, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1458695767652218, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.01418004315478264, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12146582920905671, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1280323540985657}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2201874771525815, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.036520126927984696, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1282274163160128, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.154984242339297, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06144768944832473, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.050688880133771694, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16091346418647354, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.034487376795645855, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.2001668188498435, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3812519819113702}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20305070952207901, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05346975132803723, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1793084145167133, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23653983402073522, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07446238607737239, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.005453731022282894, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24169007489543676, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0440116481845332, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14291473306401423, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16425337428552442, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06265200343149244, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.033698509416412115, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2202195008213006, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.046822832782753225, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.01776445257379156, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09572662900481083, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07248992700566824, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0269210801913003, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11324746266634927, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0063584403993659465, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12144031025111747, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9410759462148237}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15036008093362102, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05720084825452064, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.008581534451605106, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1776121752539302, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03198301339459711, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1353486371774605, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4118707181257384}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.13121943736787395, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06666269981706838, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.024456294738313927, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19232668850138368, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06597633461771549, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.021934916012273372, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19188497532134738, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.08274953081168282, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.05966596702918367, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1560446105764089, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.09741085618303813, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.002140736241365463, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18931882469887842, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03850868755534283, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12191969489505665, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20340573301781945, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07029677718930535, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.017468010664089054, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24789072188372613, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0641151331065147, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.032031603155957884, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18396070700638417, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06546808633623534, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.043846959093021255, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1466273829510359, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03583037054830222, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.010543213783306145, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.8470616486531419}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24220568877915405, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06301229413922856, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0330535584947952, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.17368566824532655, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.019968249741731434, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12240681429984075, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2786347249017362}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2305428517085424, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05132636976520572, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.02252826841689541, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20779892568720762, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.051014814512821804, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16190178239697156, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06031270753833297, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04778847826673547, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.019213387987695528, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.6789271411284645}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18408451499259626, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06044680372056241, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.01040433984095938, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1594730055191252, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026506498471886304, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1867728134749379, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2966416697826137}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2621191493434098, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.036872118685197026, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.19347093307802546, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16979059279236944, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05019695230508614, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0405377118937413, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2001204057289004, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.014764273563774728, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15557859488667056, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.314710754734082}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21325248614777803, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.015971252167405837, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.100755313951506, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3705541421666518}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18060635423523852, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04073807181577414, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.17704972840090547, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1611524730781656, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07985055237143877, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0558239947525621, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14574575318731664, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0422294912828108, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.03945355457260545, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.9081140901191634}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.17761661049146146, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04976766420767551, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.03434369309356025, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19601231932103008, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05005759522879711, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.02759126792025418, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.25435165408175275, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.051749163133509225, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1581378708000069, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14053669842952557, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04208095646631269, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.13249343285225332, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.3892652260948788}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.1853504952283064, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.005734016071106133, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1481529823389644, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.175175144805416}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2298237889796224, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03373517094633949, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15120768802448234, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18469763590886681, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.016988547395472987, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10334897264499157, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2855442603176193}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14916677617804258, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05422004737297123, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0365908602775005, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.26772843240701993, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.029681696589936062, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10206404530661553, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2400364408853224, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028072539075753085, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15170740603028945, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.218115189157786, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03814420491145512, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15276027512329204, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20702538097843867, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.09302013596276243, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0596605523162831, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20180061582364264, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.031220060371934588, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10109721911665065, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.484869323131488}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20476393830319214, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.058115059879177255, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.020876359409012852, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2210265702289623, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0551936316669512, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.010975853371567416, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.14393386925423393, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06590219257965807, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0005882150546663335, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18097204654633509, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018053502540359843, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.18574800030387567, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2837751805580488}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.17746384363953707, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04908017717817221, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04304953000900665, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20009694553046153, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0753061699915849, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0032126004605453964, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20873053341852496, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021737419540216078, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09912390960636552, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4131426401305773}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.25265143133178547, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05867533135129367, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.022700335469969454, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18635820463431202, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06708242879361315, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.019175010789062856, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16895841735228645, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027382415566450644, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.13235755827989204, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3370188801721279}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19886896154953357, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018646523807359455, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.141211885556338, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3493617765720398}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2546106521826832, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030821485369832258, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1513108284142705, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2499753742662562, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06036821108312693, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.06799504723399974, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23786817779805286, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027028599944969804, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.17836256094193287, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23366916806897198, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.019972957059220434, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1482803355155515, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4786267974887775}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2720907937670478, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026038343391408997, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1580522395573948, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20990949917537288, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.08147919824726532, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.020590138939761454, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1070103611710925, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0464040617141048, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.04359513837404991, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.8207418210446897}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15269380053508444, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06501765987714203, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.004008495038453911, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19752816004599566, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.032291238592484714, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.155128879833578, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.481339586078166}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15178957765344545, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07864582628362693, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.004917107980699116, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15151587607713696, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.007423504132306517, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09430509138524251, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.0792879615801882}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1322998616373923, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05555153767059774, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.010263382951829068, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 0.996514915497285}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16816099476722907, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.08286683323955983, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.058842583399143875, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21467594541681267, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.007632903163491547, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14508401277532554, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.2919155163576244}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15589679289942643, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05150841338882924, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.16203560800256925, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1330797463061786, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.032878922193971684, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.06405495125870134, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "fake", "confidence": 0.7723883762936455}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19429889672648668, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0621437154780831, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.034641705727343354, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2426584846698541, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.039410829671498074, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1663720730965789, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2331669907844831, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04293219622987106, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.034286771252361195, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.18978973541255928, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04606647026603296, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15626989050352638, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24013235943153435, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.002570583917469872, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.14116103788451467, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3261470372798132}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21050744742057925, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.038867498340073615, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1410082551505369, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.26018920447293087, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027423149752956254, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12719260875409522, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15989330683845052, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0633920282072303, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.009542740373394264, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.17998232171954995, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.061919092040850554, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.02091239472382059, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2315129425376019, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03221786396590354, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.12438804863730321, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16260276116166794, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0522357477734516, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15808483685525437, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.22420531154719098, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0854209437443012, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.056063428742771135, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.26309711438776745, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.023016473524528347, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11504966566580699, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.23069754847492482, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.01801363945871027, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.042892987117656184, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 0.949128222836852}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21273055665322685, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018920845537878647, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1729478931533876, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3983103108895427}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.21666084009299222, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04874245651104767, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.179948075742767, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.20565070157018914, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03912313252871213, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10070410731878762, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.2395002785211108, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.06422140172547003, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.0449398190633722, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12013220850019739, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028818611492530417, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10291845777411213, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.188626809925962}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.17484793064880705, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03845611741245294, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.030548217253459208, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 0.9673876096205529}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.22361842326787665, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.07176838393040326, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.005012868392172649, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.24459855271057085, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.013584990833782156, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.21177248560683354, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4511784173730577}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.22157004254020277, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.05813834647944861, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15170256446004152, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.5}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.16231152018805714, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04042903312555983, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07746456229005763, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4453287318824555}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19296670122566903, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024245509603500387, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.15079765131809095, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.3856774334539006}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.15704336705913965, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "WARN", "metric": "abs_delta_N", "value": 0.0742369263027749, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "WARN", "metric": "H_obs", "value": 0.05112740691457867, "threshold": null, "aux": {"H_plateau": false}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "anomaly", "confidence": 1.0}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "WARN", "metric": "delta_chart", "value": 0.19019628343373238, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027354435237806514, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.169689661299454, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "true_tear", "confidence": 1.4075319638238397}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}

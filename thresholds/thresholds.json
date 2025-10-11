@@ -1,0 +1,39 @@
+{
+  "version": "2.4R2",
+  "tau_delta": 0.15,
+  "tau_n": 0.05,
+  "N_mod": {
+    "extrapolation_guard": {
+      "order_agreement_tol": 0.01,
+      "oscillation_max": 4
+    }
+  },
+  "H_top": {
+    "alpha": 0.1,
+    "slope_tol": 0.005,
+    "lower_bound_min": 0.0,
+    "error_budget": {
+      "c_delta": 0.4,
+      "c_n": 0.6
+    }
+  },
+  "temporal_gauge": {
+    "tg_independence": {
+      "frobenius_tol": 0.001,
+      "orthogonality_tol": 0.0005
+    }
+  },
+  "kms": {
+    "commutator_max": 0.05,
+    "pmax_tol": 0.1,
+    "policy": "full"
+  },
+  "triage": {
+    "priority": [
+      "true_tear",
+      "anomaly",
+      "hard_spot",
+      "fake"
+    ]
+  }
+}

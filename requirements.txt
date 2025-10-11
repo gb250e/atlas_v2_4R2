@@ -1,0 +1,8 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+statsmodels>=0.14
+jsonschema>=4.22
+pytest>=8.0
+ruff>=0.4
+streamlit>=1.33

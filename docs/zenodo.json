@@ -1,0 +1,20 @@
+{
+  "title": "ATLAS Framework v2.4R2: Validation Dataset and Reference Implementation",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "ATLAS Project"
+    }
+  ],
+  "description": "Synthetic validation datasets (calibration/control/mixture), reference pipeline, ROC reports, and schemas for ATLAS v2.4R2.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "ATLAS",
+    "validation",
+    "operational dictionary",
+    "holonomy",
+    "modular flow"
+  ],
+  "notes": "After DOI is minted, replace placeholders in CITATION.cff and docs."
+}

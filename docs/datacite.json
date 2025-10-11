@@ -1,0 +1,38 @@
+{
+  "types": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Validation dataset"
+  },
+  "titles": [
+    {
+      "title": "ATLAS Framework v2.4R2: Validation Dataset and Reference Implementation"
+    }
+  ],
+  "creators": [
+    {
+      "name": "ATLAS Project"
+    }
+  ],
+  "publisher": "Zenodo",
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "Quantum information"
+    },
+    {
+      "subject": "Operational methods"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Synthetic validation datasets and reference implementation for ATLAS v2.4R2",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

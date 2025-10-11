@@ -1,0 +1,36 @@
+{
+  "default": {
+    "version": "2.4R2",
+    "tau_delta": 0.15,
+    "tau_n": 0.05,
+    "triage": {
+      "priority": [
+        "true_tear",
+        "anomaly",
+        "hard_spot",
+        "fake"
+      ],
+      "report": {
+        "required": true
+      }
+    }
+  },
+  "profiles": {
+    "default": {
+      "version": "2.4R2",
+      "tau_delta": 0.15,
+      "tau_n": 0.05,
+      "triage": {
+        "priority": [
+          "true_tear",
+          "anomaly",
+          "hard_spot",
+          "fake"
+        ],
+        "report": {
+          "required": true
+        }
+      }
+    }
+  }
+}

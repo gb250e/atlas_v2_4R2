@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ATLAS StageResult",
+  "type": "object",
+  "properties": {
+    "ts": {
+      "type": "string",
+      "description": "UTC timestamp with Z suffix"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "metric": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "threshold": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "aux": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "commit": {
+      "type": "string"
+    },
+    "seed": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "thresholds_sha256": {
+      "type": "string"
+    },
+    "anchor_id": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "cost": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "ts",
+    "stage",
+    "status",
+    "aux",
+    "commit",
+    "seed",
+    "thresholds_sha256",
+    "anchor_id"
+  ]
+}

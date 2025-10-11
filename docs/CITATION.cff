@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "ATLAS Framework v2.4R2: Validation Dataset and Reference Implementation"
+message: "If you use this dataset or code, please cite it."
+authors:
+  - family-names: "ATLAS"
+    given-names: "Project"
+version: "1.0.0"
+date-released: "2025-10-11"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.TBD"
+repository-code: "https://github.com/TBD/atlas-validation"

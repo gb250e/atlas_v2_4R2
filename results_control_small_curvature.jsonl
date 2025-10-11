@@ -1,0 +1,480 @@
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10170721808996266, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03764138393323323, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05502138607824868, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.215437899632208}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08633766430946152, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030378992803728716, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07790087157467426, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0915821424021588}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09115347001955729, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03819877209953897, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11206346147997931, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1858326210605807}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11422216119036475, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03203384711354674, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09099218171401083, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2010790084366834}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09579748490694014, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03403586918423469, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.059003216035528605, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1596836415321474}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1222619717148106, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03463138584187093, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.048371967449559745, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2538537641347447}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07606580643395737, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03984020244670352, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.060676444836346904, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1519547125802263}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1470668051464963, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021460818378950294, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07510472133967869, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2048308676111574}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1168106019836618, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03048919686109043, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.052600861706447455, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.194260641889777}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06956635791033523, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03036062211403318, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.054689843343589645, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0354940808414492}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07560352457418952, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0286511227929857, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11891931110506931, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0385229765104886}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08711923703838294, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030206698228580922, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08845847803592471, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.092464439080419}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12845436374504693, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02903678546905659, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08329937643381398, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2185490671740558}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10194482562152567, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.034132047472979286, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06817103162288148, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1811365601348784}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09763699142554896, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.017507369848861632, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08058786457688975, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0005303365737794}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07597943457884813, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.023079501752529378, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08229139569362756, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9840597994547876}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09257842956901846, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03029640777818217, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06142736313153885, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1115588430118832}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.05987716915503326, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03240740134518637, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07998393800765484, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0236645773019746}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.055330125290194834, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0241823062328499, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05914559641422483, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9262568132958151}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0773784847351068, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03409925287129278, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08788590574462762, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0989208111632838}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.05370296521204724, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030912225592169676, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06507951924012677, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9881321399618542}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10814066726483923, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03789812889806976, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.057611070676867646, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.239450179863495}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09177299005431783, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027849260134607715, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05465252919993205, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0844025681938032}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.028123328537416628, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.029021253486334844, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10502343616537435, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.8839569633214038}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.05001286951376091, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03223167928548595, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07026025168882544, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9890263579007291}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.05681097759504371, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030923218282611627, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06806844143328444, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9986021081429286}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07237858923424564, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02490478805896737, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10944991469607446, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9903098447038259}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09023913053682722, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.022319266656208796, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05906569227327223, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.023989768351512}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1186058207883329, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02836050374260732, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11562796777625477, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1789577733871828}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06510973275663957, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03539867693454527, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06827027385751547, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0710192118675845}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10892724030488432, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024985481320570865, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08182723126223423, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1129456142219898}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08584204791367565, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.023364940800572574, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09141379773623518, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0197895677179778}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.053604768647909064, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027786117577745278, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05067823095795908, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9565437379371496}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11179101776402203, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.017501153955118517, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07085179579509494, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0476482654312587}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08890226593979844, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.041941411394521705, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07090273167046912, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2157550004112119}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0712861317000304, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027186527922868506, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08707715179228306, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0094857182287864}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09191830203639746, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02388765820036478, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05870696349099014, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0452709221249727}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0706840378497404, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02598462412709426, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.056422041878123455, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9954597007700772}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.087907816800185, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02925555404924645, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0743059784046396, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.085581596493081}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10270867314728492, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.036328776278693665, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0723650410943902, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2056500066112197}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08981143402452582, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.011699025186184101, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07327458450243689, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9163616986102604}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0749005075799899, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028568837466623715, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0644443450315654, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0353567332662035}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10879194370681548, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03557724268072601, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05842778042430356, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2184122391633117}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12377286364302778, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02314871316453891, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08494676038951432, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.144063343788815}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08910365407467852, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026981550039893873, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.03911641993753423, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0668276806478671}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11048267596738552, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03696290974074079, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07854328904467435, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2379046839653596}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07471795210421085, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027255424189000965, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0661938855283734, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0216140822373792}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06587446212801054, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.036826134398667, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09704740506378806, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0878428844133718}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10860968759183669, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02584402203641803, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09227355115681996, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1204725123369692}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07504109004845279, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04175810502951625, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09590260178046556, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1677180171233386}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12181467405170178, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.031675171262573035, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07596980217867146, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.222800626131403}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10362117479585507, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028966140483189514, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07185758192266889, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1350653208180788}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10037451220929713, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02683825963420443, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09081008046631217, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.102964303706368}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08745115204781588, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.017576066940974886, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06048147129789362, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9672645095691351}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0431586844906077, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030902758483991034, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.04865232204126649, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9528898664752694}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07296732561695622, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.039766070481253676, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08588611905462018, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1408851235357242}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10634713869780536, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03792709619986649, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09110674811640948, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2337614243246828}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08158251589073388, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02147687228972587, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07035462668865802, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9867104425330383}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10424161121186504, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.01993892025669472, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0641936585401924, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0468612399398307}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10113961902740132, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024241510288154713, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05386123311548377, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0795471663062182}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06626838510805083, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02777327279458953, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07806137479992843, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9986273449727314}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08634523082133545, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.018423623375845185, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08087830717256186, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9720536698295701}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08708273846418747, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021780656191850496, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0830619759643656, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.00808235679913}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08918990437460697, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026071559792721646, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10043786385071624, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0580152791759063}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07937422134656208, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030498972469637724, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05351508098824313, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.069570462518251}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.05125764946337853, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.041918387025950486, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09547460593579174, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0900427018041}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10470675022502995, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028456655550113324, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11028222111813768, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1335890562512332}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11446808266593977, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.029228049545875028, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09645254602377629, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.173840771011883}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07608279686232754, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04312118686376612, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.047007560475618826, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1848211915120863}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0983317573724584, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04273097544552704, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06615083494927765, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2550822790301317}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12024293490514756, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04539428237065133, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07905161478171863, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.354752606723672}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08721776872838467, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03681005792431682, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09015226800245824, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1588264750044504}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06966317397143207, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.023406476026871844, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09710105549790085, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.966275340173492}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1134519885165217, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03492928584232416, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06540355736964396, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.227466153478314}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07120883020805918, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03735639598997476, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10887258178033163, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1109267272599448}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06831422196713062, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.025214393567174302, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08584578106563094, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9798580088955118}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07928216609923493, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04059434843214847, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0795003122426611, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1702173713189343}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09941485423261541, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.01731609891665871, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.04734414269871633, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0045438366086383}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08865119027737663, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027476158049821738, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11166360065018452, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0702655480894727}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09874991532706207, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.025662722398442854, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08935767227819205, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0857936084079687}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09176963480778608, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026817484278638115, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08634703782719791, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0740736254790013}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10176864012325881, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024272028246751412, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09990675837515046, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0819490828783769}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.04885805984078069, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.022936509374851134, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0876409908112407, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.8922252932177803}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12895393669123795, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03374723950497295, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07499532555453495, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2673188506871893}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08318873438759442, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.020110081271925, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06806065363588723, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9783965940112314}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09000934463064969, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030909305637945587, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.046687945910817444, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1091242051482881}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06435103379526474, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.019184169921478634, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.062465062199160926, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9063451451990021}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09262500488269484, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.023399433326446676, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05200228983244235, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0427443495401163}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08530649556249922, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04094628881255672, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10049004265003281, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.193817873333898}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09033306179755496, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024760606502257584, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.13065929465644163, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0487162710144258}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10148172013093897, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0315174877519027, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.060053868669393225, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.15344727795549}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10033801675324636, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02814646224711914, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09399790605969426, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.115924678315346}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10925305157593901, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03262843013738014, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0650402865425333, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1904611399602647}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08203574278994914, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02530482706333847, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09490823579479686, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0265007465998819}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12302741260817707, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.026802841427631546, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10257122152610446, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1781197896369058}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11243192953375536, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030061201812872747, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08293740466636777, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1753851165745788}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08099329480506216, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.034909224434937554, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.05940799944276286, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1190698936995829}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10912624698421185, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.028548392179243275, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0698133906778459, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1492380784064722}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06228523895841173, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.009715279524636796, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10949346933703581, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.8047702584410737}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07723376020750883, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.041268739218621384, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10065403514281397, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1701332595445766}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07794265224410421, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.032295677975435935, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09588823543929062, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.08276562056804}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.0781864184243985, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02073098058248181, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07748543065655979, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9679312005728131}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07964792695409495, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0370421869280149, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08194312284265028, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.135914959127132}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06955215688098138, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021651416129340947, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10007258770096697, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9483546842300141}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10630604819565477, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0426564937925615, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07669940995204039, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2809184319111309}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1127116389705942, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03044833471561562, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0760572816209035, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1801888103914702}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10408400994633239, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03490098618304673, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07323413721610209, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1959565616515753}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07140023541628901, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.013801559055746003, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.1196888908000765, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.8760163752784234}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.055849480339357695, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0317941067332236, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09097564891992858, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0041060017967616}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.08898581398931876, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.04211422222248032, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.057024876435858456, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.217761602189199}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.07993324941750453, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03310856808580845, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08943258864159666, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.0975298455830995}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.04299344571119545, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.021599257392851245, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.07783777525876538, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.8593040596324972}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11055139383121937, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.0420475530302442, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.11415764488717688, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.2889801764065065}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.06133325014063799, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.02606100969244396, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.09472712457508756, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 0.9650542640598996}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.13827754367279846, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.03494372100743474, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.08640781112557147, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.3103623556503423}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.12041622590745349, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.020648828451302833, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.06911687118870384, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.10787570420454}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.1023676645736915, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.030542190919419728, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0477166836181612, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.146647457773169}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.11695962511965549, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.025475920769554135, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.10205145406494498, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1446246247610596}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.09935830873747876, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.024257582374390234, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.0725631661571255, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.073770186202165}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "delta", "status": "PASS", "metric": "delta_chart", "value": 0.10769103113725972, "threshold": 0.15, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "nmod", "status": "PASS", "metric": "abs_delta_N", "value": 0.027239222341023977, "threshold": 0.05, "aux": {}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "htop", "status": "PASS", "metric": "H_obs", "value": 0.025073615454338533, "threshold": null, "aux": {"H_plateau": true}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
+{"stage": "triage", "status": "PASS", "metric": "class", "value": null, "threshold": null, "aux": {"class": "hard_spot", "confidence": 1.1313623272011055}, "notes": "", "timestamp": "2025-10-11T02:18:00Z"}
