@@ -44,6 +44,263 @@ _APPEND_ONLY_LIST_PATHS = {
 }
 _ALLOWED_KMS_POLICIES = {"geometric_only", "strict", "disabled"}
 
+
+_FIGURE_SET = [
+    "F1_dashboard",
+    "F2_tg_ind",
+    "F3_delta_map",
+    "F4_nmod_stability",
+    "F5_hlb_budget",
+    "F6_roc",
+    "F7_scope_gate",
+    "F8_kms",
+    "F9_cost",
+    "F10_determinism",
+]
+
+_FIGURE_OUTPUTS = [f"figures/{fig}/{fig}.pdf" for fig in _FIGURE_SET]
+
+
+def _normalize_stage_name(stage: str) -> str:
+    stage_lower = stage.lower()
+    if stage_lower.startswith("sg"):
+        return "sg"
+    if stage_lower == "cost_reporting":
+        return "cost"
+    return stage_lower
+
+
+def _read_stage_log(path: Path) -> Tuple[list, Dict[str, Any]]:
+    if not path.exists():
+        raise AtlasFiguresError(f"Stage log not found: {path}")
+    records = []
+    with path.open("r", encoding="utf-8") as f:
+        for lineno, line in enumerate(f, start=1):
+            stripped = line.strip()
+            if not stripped:
+                continue
+            try:
+                obj = json.loads(stripped)
+            except json.JSONDecodeError as exc:
+                raise AtlasFiguresError(f"Invalid JSON on line {lineno}: {exc}") from exc
+            records.append(obj)
+    if not records:
+        raise AtlasFiguresError("Stage log is empty.")
+
+    manifest_info = {
+        "commits": {rec.get("commit") for rec in records if rec.get("commit")},
+        "seeds": {rec.get("seed") for rec in records if rec.get("seed") is not None},
+        "thresholds_sha256": {rec.get("thresholds_sha256") for rec in records if rec.get("thresholds_sha256")},
+    }
+    return records, manifest_info
+
+
+def _validate_figures(records: list, entry: ProfileEntry) -> Tuple[list, list, Dict[str, Any]]:
+    errors: list = []
+    warnings: list = []
+
+    stage_buckets: Dict[str, list] = {k: [] for k in [
+        "delta",
+        "nmod",
+        "htop",
+        "roc",
+        "tg_ind",
+        "sg",
+        "kms",
+        "cost",
+        "determinism",
+    ]}
+
+    for rec in records:
+        stage = rec.get("stage")
+        if not stage:
+            continue
+        normalized = _normalize_stage_name(stage)
+        if normalized in stage_buckets:
+            stage_buckets[normalized].append(rec)
+
+    tg_records = stage_buckets["tg_ind"]
+    if not tg_records:
+        errors.append("F2_tg_ind: missing tg_ind stage entries.")
+    else:
+        if not any(
+            isinstance(rec.get("aux"), dict)
+            and rec["aux"].get("frobenius_resid") is not None
+            and rec["aux"].get("orthogonality_resid") is not None
+            for rec in tg_records
+        ):
+            errors.append("F2_tg_ind: tg_ind entries lack frobenius_resid and orthogonality_resid.")
+
+    if not stage_buckets["delta"] or not stage_buckets["nmod"] or not stage_buckets["htop"]:
+        errors.append("F1_dashboard: requires delta, nmod, and htop stages.")
+    else:
+        for rec in stage_buckets["delta"]:
+            aux = rec.get("aux", {})
+            if "delta_chart" not in aux:
+                errors.append("F1_dashboard: delta stage missing aux.delta_chart.")
+                break
+        for rec in stage_buckets["nmod"]:
+            aux = rec.get("aux", {})
+            if "abs_delta_N" not in aux:
+                errors.append("F1_dashboard: nmod stage missing aux.abs_delta_N.")
+                break
+        for rec in stage_buckets["htop"]:
+            aux = rec.get("aux", {})
+            eb = aux.get("error_budget", {})
+            if not all(k in eb for k in ("E_disc", "E_loc", "E_resp")):
+                errors.append("F1_dashboard: htop error_budget incomplete (needs E_disc, E_loc, E_resp).")
+                break
+
+    if any("chart_coords" not in rec.get("aux", {}) for rec in stage_buckets["delta"]):
+        errors.append("F3_delta_map: delta stage requires aux.chart_coords for heatmap.")
+
+    for rec in stage_buckets["nmod"]:
+        aux = rec.get("aux", {})
+        guard = aux.get("guard_metrics", {})
+        thresholds = aux.get("guard_thresholds", {})
+        if not guard or "order_agreement_tol" not in thresholds:
+            errors.append("F4_nmod_stability: missing guard metrics or thresholds.")
+            break
+
+    if not stage_buckets["htop"]:
+        errors.append("F5_hlb_budget: requires htop stage.")
+
+    if not stage_buckets["roc"]:
+        errors.append("F6_roc: requires roc stage entries.")
+    profile_roc_doi = _get_path(entry.profile, "triage.roc.external_set_doi")
+    if entry.state == "READY" and profile_roc_doi in {"TBD", None}:
+        warnings.append("Profile READY but triage.roc.external_set_doi is placeholder.")
+
+    if not stage_buckets["sg"]:
+        warnings.append("F7_scope_gate: no SG stage entries found.")
+
+    if not stage_buckets["kms"]:
+        warnings.append("F8_kms: no kms stage entries.")
+    else:
+        for rec in stage_buckets["kms"]:
+            aux = rec.get("aux", {})
+            policy = aux.get("policy")
+            if policy not in _ALLOWED_KMS_POLICIES:
+                errors.append("F8_kms: kms policy must be geometric_only or stricter.")
+                break
+
+    if not stage_buckets["cost"]:
+        warnings.append("F9_cost: no cost stage entries.")
+    else:
+        required_cost_fields = {"wall_seconds", "cpu_seconds", "max_rss_kb"}
+        if not any(required_cost_fields.issubset(rec.get("aux", {}).keys()) for rec in stage_buckets["cost"]):
+            errors.append("F9_cost: cost stage missing required fields (wall_seconds, cpu_seconds, max_rss_kb).")
+
+    if not stage_buckets["determinism"]:
+        errors.append("F10_determinism: requires determinism stage entries.")
+    else:
+        required_det_fields = {"rng", "seed", "dtype", "bit_generator"}
+        for rec in stage_buckets["determinism"]:
+            aux = rec.get("aux", {})
+            if not required_det_fields.issubset(aux.keys()):
+                errors.append("F10_determinism: determinism stage missing rng/seed/dtype/bit_generator.")
+                break
+
+    log_info = {"stages": stage_buckets}
+    return errors, warnings, log_info
+
+
+def _build_plan_dict(entry: ProfileEntry, log_path: Path, warnings: list) -> Dict[str, Any]:
+    return {
+        "profile_id": entry.id,
+        "effective_sha256": entry.effective_sha256,
+        "state": entry.state,
+        "compliance": entry.compliance,
+        "missing_placeholders": list(entry.missing_placeholders),
+        "inputs": {"log_jsonl": str(log_path)},
+        "outputs": list(_FIGURE_OUTPUTS),
+        "steps": [
+            {"fig": "F1_dashboard", "from": ["delta/*", "nmod/*", "htop/*"]},
+            {"fig": "F2_tg_ind", "from": ["tg_ind/*"]},
+            {"fig": "F3_delta_map", "from": ["delta/*"]},
+            {"fig": "F4_nmod_stability", "from": ["nmod/*"]},
+            {"fig": "F5_hlb_budget", "from": ["htop/*"]},
+            {"fig": "F6_roc", "from": ["roc/*"]},
+            {"fig": "F7_scope_gate", "from": ["sg/*"]},
+            {"fig": "F8_kms", "from": ["kms/*"]},
+            {"fig": "F9_cost", "from": ["cost/*"]},
+            {"fig": "F10_determinism", "from": ["determinism/*"]},
+        ],
+        "manifest": "figures/manifest.json",
+        "warnings": warnings,
+    }
+
+
+def plan(action: str, params: Dict[str, Any]) -> Dict[str, Any]:
+    if action != "atlas.figures.build":
+        raise KeyError(f"Unsupported plan action: {action}")
+    ctx = _context()
+    log_jsonl = params.get("log_jsonl")
+    if not log_jsonl:
+        raise AtlasFiguresError("Missing log_jsonl parameter.")
+    log_path = Path(log_jsonl)
+    profile_name = params.get("profile")
+    overrides = params.get("overrides")
+    config = params.get("config")
+    env = params.get("env")
+
+    entry = ctx.select_profile(profile_name, overrides, config, env)
+    if entry.compliance != "CONFORMANT":
+        raise AtlasFiguresError(f"Profile {entry.id} is NON_CONFORMANT.")
+
+    records, manifest_info = _read_stage_log(log_path)
+
+    warnings = []
+    if manifest_info["thresholds_sha256"] and (
+        entry.thresholds_sha256 not in manifest_info["thresholds_sha256"]
+    ):
+        warnings.append("Stage log thresholds_sha256 mismatch with current thresholds file.")
+
+    errors, figure_warnings, _ = _validate_figures(records, entry)
+    warnings.extend(figure_warnings)
+    if errors:
+        raise AtlasFiguresError("; ".join(errors))
+
+    return _build_plan_dict(entry, log_path, warnings)
+
+
+def validate(action: str, params: Dict[str, Any]) -> Dict[str, Any]:
+    if action != "atlas.figures.inputs":
+        raise KeyError(f"Unsupported validate action: {action}")
+    result = {"ok": False, "errors": [], "warnings": []}
+    try:
+        ctx = _context()
+        log_jsonl = params.get("log_jsonl")
+        if not log_jsonl:
+            result["errors"].append("Missing log_jsonl parameter.")
+            return result
+        log_path = Path(log_jsonl)
+        profile_name = params.get("profile")
+        overrides = params.get("overrides")
+        config = params.get("config")
+        env = params.get("env")
+        entry = ctx.select_profile(profile_name, overrides, config, env)
+        if entry.compliance != "CONFORMANT":
+            result["errors"].append(f"Profile {entry.id} is NON_CONFORMANT.")
+            return result
+        records, manifest_info = _read_stage_log(log_path)
+    except AtlasFiguresError as exc:
+        result["errors"].append(str(exc))
+        return result
+    except Exception as exc:  # pragma: no cover
+        result["errors"].append(str(exc))
+        return result
+
+    if manifest_info["thresholds_sha256"] and (
+        entry.thresholds_sha256 not in manifest_info["thresholds_sha256"]
+    ):
+        result["warnings"].append("Stage log thresholds_sha256 mismatch with current thresholds file.")
+    errors, figure_warnings, _ = _validate_figures(records, entry)
+    result["errors"].extend(errors)
+    result["warnings"].extend(figure_warnings)
+    result["ok"] = not result["errors"]
+    return result
+
 _ALIASES = {
     "default": "atlas:profile:v2.4R2:default",
     "標準": "atlas:profile:v2.4R2:default",
@@ -61,6 +318,10 @@ _ALIASES = {
 
 class AtlasRegistryError(ValueError):
     """Raised when dynamic profile construction violates normative requirements."""
+
+
+class AtlasFiguresError(AtlasRegistryError):
+    """Raised when figure validation fails."""
 
 
 def _read_json(path: Path) -> Any:
@@ -462,13 +723,15 @@ def get(key: str, identifier: Optional[str] = None) -> Any:
     ctx = _context()
     if key == "atlas.latest":
         return ctx.latest()
-    if key == "atlas.profiles":
+    if key in ("atlas.profiles", "atlas.figures.profiles"):
         return deepcopy(list(ctx.profiles_summary()))
     if key == "atlas.profile":
         if identifier is None:
             raise ValueError("identifier is required for atlas.profile")
         entry = ctx.get_entry(identifier)
         return _expose_entry(entry)
+    if key == "atlas.figures.figure_set":
+        return list(_FIGURE_SET)
     raise KeyError(f"Unsupported codex.get key: {key}")
 
 
@@ -535,5 +798,8 @@ __all__ = [
     "clear_store",
     "reset_dynamic_profiles",
     "reload",
+    "plan",
+    "validate",
     "AtlasRegistryError",
+    "AtlasFiguresError",
 ]
