@@ -1,0 +1,22 @@
+{
+  "atlas": {
+    "latest": "2.4R2",
+    "docs": [
+      "docs/ATLAS_Framework_v2.4R2.md",
+      "docs/ATLAS_Framework_v2.4R2.pdf",
+      "docs/LATEST.md"
+    ],
+    "configs": [
+      "configs/ATLAS_thresholds_v2.4R2.json"
+    ],
+    "profiles": [
+      "default",
+      "reviewer",
+      "student",
+      "benchmark",
+      "hpc"
+    ],
+    "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+    "generated_utc": "2025-10-11T06:50:39.743997Z"
+  }
+}
