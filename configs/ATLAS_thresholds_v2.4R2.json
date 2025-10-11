@@ -65,7 +65,7 @@
           "kfold": 5,
           "min_auc": 0.75,
           "external_validation_required": true,
-          "external_set_doi": "TBD"
+          "external_set_doi": "10.5281/zenodo.17328804"
         }
       }
     },
@@ -427,7 +427,7 @@
             "kfold": 5,
             "min_auc": 0.75,
             "external_validation_required": true,
-            "external_set_doi": "TBD"
+            "external_set_doi": "10.5281/zenodo.17328804"
           }
         }
       },
