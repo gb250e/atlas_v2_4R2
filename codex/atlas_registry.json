@@ -1,0 +1,1922 @@
+{
+  "atlas": {
+    "latest": "2.4R2",
+    "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+    "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+    "profiles": [
+      {
+        "id": "atlas:profile:v2.4R2:default",
+        "name": "default",
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c"
+      },
+      {
+        "id": "atlas:profile:v2.4R2:reviewer",
+        "name": "reviewer",
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c"
+      },
+      {
+        "id": "atlas:profile:v2.4R2:student",
+        "name": "student",
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c"
+      },
+      {
+        "id": "atlas:profile:v2.4R2:benchmark",
+        "name": "benchmark",
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c"
+      },
+      {
+        "id": "atlas:profile:v2.4R2:hpc",
+        "name": "hpc",
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c"
+      }
+    ],
+    "profile_details": {
+      "atlas:profile:v2.4R2:default": {
+        "id": "atlas:profile:v2.4R2:default",
+        "name": "default",
+        "version": "2.4R2",
+        "system_class": "spin",
+        "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+        "tau_delta": 0.15,
+        "tau_n": 0.05,
+        "curvature_threshold": 0.2,
+        "delta_chart": {
+          "norm_bridge": "hs_to_op",
+          "report_op_norm_proxy": true,
+          "distance_metric": "graph",
+          "boundary_convention": "strict_support",
+          "adjoint_convention": "Heisenberg-HS",
+          "op_probe": {
+            "enable": true,
+            "max_iters": 64,
+            "tol": 1e-08,
+            "restarts": 3,
+            "seed": 1337,
+            "on_nonconverge": "INCONCLUSIVE"
+          }
+        },
+        "N_mod": {
+          "kfold": 5,
+          "bootstrap": 1000,
+          "diff_scheme": "central",
+          "h_rel_grid": [
+            0.001,
+            0.003,
+            0.01,
+            0.03
+          ],
+          "richardson_order": 2,
+          "stability_checks": {
+            "split_halves": true,
+            "sign_consistency": true
+          },
+          "regularization_epsilon": 1e-06,
+          "regularization_epsilon_range": [
+            1e-08,
+            0.0001
+          ],
+          "epsilon_scaling": "fixed",
+          "epsilon_h_coupling": null,
+          "extrapolation_guard": {
+            "order_agreement_tol": 0.15,
+            "oscillation_max": 2,
+            "nonanalytic_warn": true,
+            "roc": {
+              "kfold": 5,
+              "min_auc": 0.75,
+              "external_validation_required": true,
+              "external_set_doi": "TBD"
+            }
+          }
+        },
+        "H_top": {
+          "c1_mode": "calibrated",
+          "c2_mode": "grid",
+          "multi_resolution": [
+            1,
+            2,
+            4
+          ],
+          "plateau_tol": 0.1,
+          "plateau_method": "theil_sen",
+          "plateau_pmax": 0.1,
+          "lower_bound_floor": 0.0,
+          "negative_F_sum_policy": "floor_to_zero",
+          "error_budget": {
+            "discretization": {
+              "method": "richardson_remainder",
+              "order": 2,
+              "safety_factor": 1.5
+            },
+            "local_from_delta": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            },
+            "response_from_n": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            }
+          }
+        },
+        "temporal_gauge": {
+          "time_slices": {
+            "delta_t_rel": [
+              0.001,
+              0.003,
+              0.01
+            ]
+          },
+          "loops": {
+            "shapes": [
+              "time-rect"
+            ],
+            "multi_resolution": [
+              1,
+              2,
+              4
+            ],
+            "plateau_tol": 0.1
+          },
+          "boost_axis": {
+            "enable": true
+          },
+          "tg_independence": {
+            "require": true,
+            "frobenius_tol": 0.001,
+            "orthogonality_tol": 1e-06,
+            "log_required": true
+          }
+        },
+        "kms": {
+          "compat_test": {
+            "method": "commutator_bound",
+            "pmax": 0.1
+          },
+          "policy": "geometric_only"
+        },
+        "windows": {
+          "samples": 1024,
+          "tau": "specify in units"
+        },
+        "determinism": {
+          "rng_name": "Philox",
+          "seed": 42,
+          "parallel_mode": "counter",
+          "thread_offset": 1000,
+          "dtype": "float64",
+          "rtol": 1e-10,
+          "atol": 1e-14,
+          "ulp_max": 8,
+          "build": {
+            "fp_contract": "off"
+          }
+        },
+        "provenance": {
+          "require_external_anchor": true,
+          "required_fields": [
+            "source_type",
+            "id_or_doi",
+            "version_or_date",
+            "method",
+            "ci_95"
+          ],
+          "source_type": {
+            "enum": [
+              "theory",
+              "empirical",
+              "literature",
+              "simulation"
+            ],
+            "validation": "strict"
+          },
+          "independence": {
+            "require_non_atlas": true,
+            "allow_independent_atlas_with_digest": true
+          },
+          "sensitivity": {
+            "enabled": true,
+            "method": "monte_carlo",
+            "samples": 100,
+            "vary_within_ci": "95%",
+            "joint_vs_marginal": "joint",
+            "flip_rate_threshold": 0.1,
+            "report_effect_on_passfail": true
+          }
+        },
+        "triage": {
+          "rules": {
+            "true_tear": {
+              "H_plateau": true,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "anomaly": {
+              "H_plateau": false,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "hard_spot": {
+              "H_plateau": true,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            },
+            "fake": {
+              "H_plateau": false,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            }
+          },
+          "priority": [
+            "true_tear",
+            "anomaly",
+            "hard_spot",
+            "fake"
+          ],
+          "confidence": "min(1.0, 0.5*(delta_chart/tau_delta + abs_delta_N/tau_n)) + (0.5 if H_plateau else 0.0)",
+          "report": {
+            "metrics": [
+              "TPR",
+              "FPR",
+              "AUC",
+              "best_J",
+              "ci95"
+            ],
+            "required": true
+          },
+          "roc": {
+            "kfold": 5,
+            "external_validation_required": true,
+            "external_set_doi": "TBD"
+          }
+        },
+        "log_format": {
+          "fields": [
+            "ts",
+            "stage",
+            "metric",
+            "value",
+            "threshold",
+            "status",
+            "notes",
+            "commit",
+            "seed",
+            "thresholds_sha256",
+            "anchor_id"
+          ],
+          "ts_format": "ISO-8601"
+        },
+        "cost_reporting": {
+          "required": true,
+          "fields": [
+            "system_class",
+            "N",
+            "d_r",
+            "bootstrap",
+            "loops",
+            "resolutions",
+            "wall_time_s",
+            "env_hash"
+          ]
+        },
+        "schema_migration": {
+          "from_versions": [
+            "1.95R5",
+            "2.0",
+            "2.0R1",
+            "2.2",
+            "2.3",
+            "2.3R1",
+            "2.4",
+            "2.4R1"
+          ],
+          "rules": [
+            {
+              "from": "epsilon",
+              "to": "N_mod.regularization_epsilon"
+            },
+            {
+              "from": "epsilon_range",
+              "to": "N_mod.regularization_epsilon_range"
+            },
+            {
+              "from": "lr_speed",
+              "to": "v_LR"
+            },
+            {
+              "from": "causality.epsilon",
+              "to": "epsilon_caus"
+            },
+            {
+              "from": "delta_local",
+              "to": "delta_chart"
+            },
+            {
+              "from": "delta_lat",
+              "to": "delta_chart"
+            },
+            {
+              "from": "holonomy",
+              "to": "holonomy_lb"
+            },
+            {
+              "from": "H_lb",
+              "to": "holonomy_lb"
+            },
+            {
+              "defaults": {
+                "determinism.rng_name": "Philox",
+                "determinism.dtype": "float64",
+                "determinism.rtol": 1e-10,
+                "determinism.atol": 1e-14,
+                "determinism.ulp_max": 8
+              }
+            },
+            {
+              "defaults": {
+                "H_top.plateau_method": "theil_sen",
+                "H_top.plateau_pmax": 0.1
+              }
+            },
+            {
+              "defaults": {
+                "triage.report.required": true
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "metrics": {
+            "delta_local": "delta_chart",
+            "delta_lat": "delta_chart",
+            "holonomy": "holonomy_lb",
+            "H_lb": "holonomy_lb",
+            "delta_mod": "delta_N"
+          },
+          "params": {
+            "epsilon": "N_mod.regularization_epsilon",
+            "epsilon_range": "N_mod.regularization_epsilon_range",
+            "lr_speed": "v_LR",
+            "causality.epsilon": "epsilon_caus"
+          }
+        },
+        "deprecated": {
+          "remove_in_future": [
+            "lr_speed",
+            "epsilon",
+            "epsilon_range",
+            "delta_local",
+            "delta_lat",
+            "holonomy",
+            "H_lb"
+          ]
+        },
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "missing_placeholders": [
+          "epsilon_caus",
+          "v_LR",
+          "anchor_metric.scales",
+          "windows.tau",
+          "triage.roc.external_set_doi"
+        ]
+      },
+      "atlas:profile:v2.4R2:reviewer": {
+        "id": "atlas:profile:v2.4R2:reviewer",
+        "name": "reviewer",
+        "version": "2.4R2-reviewer",
+        "system_class": "spin",
+        "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+        "tau_delta": 0.15,
+        "tau_n": 0.05,
+        "curvature_threshold": 0.2,
+        "delta_chart": {
+          "norm_bridge": "hs_to_op",
+          "report_op_norm_proxy": true,
+          "distance_metric": "graph",
+          "boundary_convention": "strict_support",
+          "adjoint_convention": "Heisenberg-HS",
+          "op_probe": {
+            "enable": true,
+            "max_iters": 64,
+            "tol": 1e-08,
+            "restarts": 3,
+            "seed": 1337,
+            "on_nonconverge": "INCONCLUSIVE"
+          }
+        },
+        "N_mod": {
+          "kfold": 5,
+          "bootstrap": 1000,
+          "diff_scheme": "central",
+          "h_rel_grid": [
+            0.001,
+            0.003,
+            0.01,
+            0.03
+          ],
+          "richardson_order": 2,
+          "stability_checks": {
+            "split_halves": true,
+            "sign_consistency": true
+          },
+          "regularization_epsilon": 1e-06,
+          "regularization_epsilon_range": [
+            1e-08,
+            0.0001
+          ],
+          "epsilon_scaling": "fixed",
+          "epsilon_h_coupling": null,
+          "extrapolation_guard": {
+            "order_agreement_tol": 0.15,
+            "oscillation_max": 2,
+            "nonanalytic_warn": true,
+            "roc": {
+              "kfold": 5,
+              "min_auc": 0.75,
+              "external_validation_required": true,
+              "external_set_doi": "TBD"
+            }
+          }
+        },
+        "H_top": {
+          "c1_mode": "calibrated",
+          "c2_mode": "grid",
+          "multi_resolution": [
+            1,
+            2,
+            4
+          ],
+          "plateau_tol": 0.1,
+          "plateau_method": "theil_sen",
+          "plateau_pmax": 0.1,
+          "lower_bound_floor": 0.0,
+          "negative_F_sum_policy": "floor_to_zero",
+          "error_budget": {
+            "discretization": {
+              "method": "richardson_remainder",
+              "order": 2,
+              "safety_factor": 1.5
+            },
+            "local_from_delta": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            },
+            "response_from_n": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            }
+          }
+        },
+        "temporal_gauge": {
+          "time_slices": {
+            "delta_t_rel": [
+              0.001,
+              0.003,
+              0.01
+            ]
+          },
+          "loops": {
+            "shapes": [
+              "time-rect"
+            ],
+            "multi_resolution": [
+              1,
+              2,
+              4
+            ],
+            "plateau_tol": 0.1
+          },
+          "boost_axis": {
+            "enable": true
+          },
+          "tg_independence": {
+            "require": true,
+            "frobenius_tol": 0.001,
+            "orthogonality_tol": 1e-06,
+            "log_required": true
+          }
+        },
+        "kms": {
+          "compat_test": {
+            "method": "commutator_bound",
+            "pmax": 0.1
+          },
+          "policy": "geometric_only"
+        },
+        "windows": {
+          "samples": 1024,
+          "tau": "specify in units"
+        },
+        "determinism": {
+          "rng_name": "Philox",
+          "seed": 42,
+          "parallel_mode": "counter",
+          "thread_offset": 1000,
+          "dtype": "float64",
+          "rtol": 1e-10,
+          "atol": 1e-14,
+          "ulp_max": 8,
+          "build": {
+            "fp_contract": "off"
+          }
+        },
+        "provenance": {
+          "require_external_anchor": true,
+          "required_fields": [
+            "source_type",
+            "id_or_doi",
+            "version_or_date",
+            "method",
+            "ci_95"
+          ],
+          "source_type": {
+            "enum": [
+              "theory",
+              "empirical",
+              "literature",
+              "simulation"
+            ],
+            "validation": "strict"
+          },
+          "independence": {
+            "require_non_atlas": true,
+            "allow_independent_atlas_with_digest": true
+          },
+          "sensitivity": {
+            "enabled": true,
+            "method": "monte_carlo",
+            "samples": 100,
+            "vary_within_ci": "95%",
+            "joint_vs_marginal": "joint",
+            "flip_rate_threshold": 0.1,
+            "report_effect_on_passfail": true
+          }
+        },
+        "triage": {
+          "rules": {
+            "true_tear": {
+              "H_plateau": true,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "anomaly": {
+              "H_plateau": false,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "hard_spot": {
+              "H_plateau": true,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            },
+            "fake": {
+              "H_plateau": false,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            }
+          },
+          "priority": [
+            "true_tear",
+            "anomaly",
+            "hard_spot",
+            "fake"
+          ],
+          "confidence": "min(1.0, 0.5*(delta_chart/tau_delta + abs_delta_N/tau_n)) + (0.5 if H_plateau else 0.0)",
+          "report": {
+            "metrics": [
+              "TPR",
+              "FPR",
+              "AUC",
+              "best_J",
+              "ci95"
+            ],
+            "required": true
+          },
+          "roc": {
+            "kfold": 5,
+            "external_validation_required": true,
+            "external_set_doi": "TBD"
+          }
+        },
+        "log_format": {
+          "fields": [
+            "ts",
+            "stage",
+            "metric",
+            "value",
+            "threshold",
+            "status",
+            "notes",
+            "commit",
+            "seed",
+            "thresholds_sha256",
+            "anchor_id"
+          ],
+          "ts_format": "ISO-8601"
+        },
+        "cost_reporting": {
+          "required": true,
+          "fields": [
+            "system_class",
+            "N",
+            "d_r",
+            "bootstrap",
+            "loops",
+            "resolutions",
+            "wall_time_s",
+            "env_hash"
+          ]
+        },
+        "schema_migration": {
+          "from_versions": [
+            "1.95R5",
+            "2.0",
+            "2.0R1",
+            "2.2",
+            "2.3",
+            "2.3R1",
+            "2.4",
+            "2.4R1"
+          ],
+          "rules": [
+            {
+              "from": "epsilon",
+              "to": "N_mod.regularization_epsilon"
+            },
+            {
+              "from": "epsilon_range",
+              "to": "N_mod.regularization_epsilon_range"
+            },
+            {
+              "from": "lr_speed",
+              "to": "v_LR"
+            },
+            {
+              "from": "causality.epsilon",
+              "to": "epsilon_caus"
+            },
+            {
+              "from": "delta_local",
+              "to": "delta_chart"
+            },
+            {
+              "from": "delta_lat",
+              "to": "delta_chart"
+            },
+            {
+              "from": "holonomy",
+              "to": "holonomy_lb"
+            },
+            {
+              "from": "H_lb",
+              "to": "holonomy_lb"
+            },
+            {
+              "defaults": {
+                "determinism.rng_name": "Philox",
+                "determinism.dtype": "float64",
+                "determinism.rtol": 1e-10,
+                "determinism.atol": 1e-14,
+                "determinism.ulp_max": 8
+              }
+            },
+            {
+              "defaults": {
+                "H_top.plateau_method": "theil_sen",
+                "H_top.plateau_pmax": 0.1
+              }
+            },
+            {
+              "defaults": {
+                "triage.report.required": true
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "metrics": {
+            "delta_local": "delta_chart",
+            "delta_lat": "delta_chart",
+            "holonomy": "holonomy_lb",
+            "H_lb": "holonomy_lb",
+            "delta_mod": "delta_N"
+          },
+          "params": {
+            "epsilon": "N_mod.regularization_epsilon",
+            "epsilon_range": "N_mod.regularization_epsilon_range",
+            "lr_speed": "v_LR",
+            "causality.epsilon": "epsilon_caus"
+          }
+        },
+        "deprecated": {
+          "remove_in_future": [
+            "lr_speed",
+            "epsilon",
+            "epsilon_range",
+            "delta_local",
+            "delta_lat",
+            "holonomy",
+            "H_lb"
+          ]
+        },
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "missing_placeholders": [
+          "epsilon_caus",
+          "v_LR",
+          "anchor_metric.scales",
+          "windows.tau",
+          "triage.roc.external_set_doi"
+        ]
+      },
+      "atlas:profile:v2.4R2:student": {
+        "id": "atlas:profile:v2.4R2:student",
+        "name": "student",
+        "version": "2.4R2-student",
+        "system_class": "spin",
+        "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+        "tau_delta": 0.12,
+        "tau_n": 0.04,
+        "curvature_threshold": 0.18,
+        "delta_chart": {
+          "norm_bridge": "hs_to_op",
+          "report_op_norm_proxy": true,
+          "distance_metric": "graph",
+          "boundary_convention": "strict_support",
+          "adjoint_convention": "Heisenberg-HS",
+          "op_probe": {
+            "enable": true,
+            "max_iters": 64,
+            "tol": 1e-08,
+            "restarts": 3,
+            "seed": 1337,
+            "on_nonconverge": "INCONCLUSIVE"
+          }
+        },
+        "N_mod": {
+          "kfold": 5,
+          "bootstrap": 2000,
+          "diff_scheme": "central",
+          "h_rel_grid": [
+            0.001,
+            0.003,
+            0.01,
+            0.03
+          ],
+          "richardson_order": 2,
+          "stability_checks": {
+            "split_halves": true,
+            "sign_consistency": true
+          },
+          "regularization_epsilon": 1e-06,
+          "regularization_epsilon_range": [
+            1e-08,
+            0.0001
+          ],
+          "epsilon_scaling": "fixed",
+          "epsilon_h_coupling": null,
+          "extrapolation_guard": {
+            "order_agreement_tol": 0.15,
+            "oscillation_max": 2,
+            "nonanalytic_warn": true,
+            "roc": {
+              "kfold": 5,
+              "min_auc": 0.75,
+              "external_validation_required": true,
+              "external_set_doi": "TBD"
+            }
+          }
+        },
+        "H_top": {
+          "c1_mode": "calibrated",
+          "c2_mode": "grid",
+          "multi_resolution": [
+            1,
+            2,
+            4
+          ],
+          "plateau_tol": 0.1,
+          "plateau_method": "theil_sen",
+          "plateau_pmax": 0.1,
+          "lower_bound_floor": 0.0,
+          "negative_F_sum_policy": "floor_to_zero",
+          "error_budget": {
+            "discretization": {
+              "method": "richardson_remainder",
+              "order": 2,
+              "safety_factor": 1.5
+            },
+            "local_from_delta": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            },
+            "response_from_n": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            }
+          }
+        },
+        "temporal_gauge": {
+          "time_slices": {
+            "delta_t_rel": [
+              0.001,
+              0.003,
+              0.01
+            ]
+          },
+          "loops": {
+            "shapes": [
+              "time-rect"
+            ],
+            "multi_resolution": [
+              1,
+              2,
+              4
+            ],
+            "plateau_tol": 0.1
+          },
+          "boost_axis": {
+            "enable": true
+          },
+          "tg_independence": {
+            "require": true,
+            "frobenius_tol": 0.001,
+            "orthogonality_tol": 1e-06,
+            "log_required": true
+          }
+        },
+        "kms": {
+          "compat_test": {
+            "method": "commutator_bound",
+            "pmax": 0.1
+          },
+          "policy": "geometric_only"
+        },
+        "windows": {
+          "samples": 2048,
+          "tau": "specify in units"
+        },
+        "determinism": {
+          "rng_name": "Philox",
+          "seed": 42,
+          "parallel_mode": "counter",
+          "thread_offset": 1000,
+          "dtype": "float64",
+          "rtol": 1e-10,
+          "atol": 1e-14,
+          "ulp_max": 8,
+          "build": {
+            "fp_contract": "off"
+          }
+        },
+        "provenance": {
+          "require_external_anchor": true,
+          "required_fields": [
+            "source_type",
+            "id_or_doi",
+            "version_or_date",
+            "method",
+            "ci_95"
+          ],
+          "source_type": {
+            "enum": [
+              "theory",
+              "empirical",
+              "literature",
+              "simulation"
+            ],
+            "validation": "strict"
+          },
+          "independence": {
+            "require_non_atlas": true,
+            "allow_independent_atlas_with_digest": true
+          },
+          "sensitivity": {
+            "enabled": true,
+            "method": "monte_carlo",
+            "samples": 100,
+            "vary_within_ci": "95%",
+            "joint_vs_marginal": "joint",
+            "flip_rate_threshold": 0.1,
+            "report_effect_on_passfail": true
+          }
+        },
+        "triage": {
+          "rules": {
+            "true_tear": {
+              "H_plateau": true,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "anomaly": {
+              "H_plateau": false,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "hard_spot": {
+              "H_plateau": true,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            },
+            "fake": {
+              "H_plateau": false,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            }
+          },
+          "priority": [
+            "true_tear",
+            "anomaly",
+            "hard_spot",
+            "fake"
+          ],
+          "confidence": "min(1.0, 0.5*(delta_chart/tau_delta + abs_delta_N/tau_n)) + (0.5 if H_plateau else 0.0)",
+          "report": {
+            "metrics": [
+              "TPR",
+              "FPR",
+              "AUC",
+              "best_J",
+              "ci95"
+            ],
+            "required": true
+          },
+          "roc": {
+            "kfold": 5,
+            "external_validation_required": true,
+            "external_set_doi": "TBD"
+          }
+        },
+        "log_format": {
+          "fields": [
+            "ts",
+            "stage",
+            "metric",
+            "value",
+            "threshold",
+            "status",
+            "notes",
+            "commit",
+            "seed",
+            "thresholds_sha256",
+            "anchor_id"
+          ],
+          "ts_format": "ISO-8601"
+        },
+        "cost_reporting": {
+          "required": true,
+          "fields": [
+            "system_class",
+            "N",
+            "d_r",
+            "bootstrap",
+            "loops",
+            "resolutions",
+            "wall_time_s",
+            "env_hash"
+          ]
+        },
+        "schema_migration": {
+          "from_versions": [
+            "1.95R5",
+            "2.0",
+            "2.0R1",
+            "2.2",
+            "2.3",
+            "2.3R1",
+            "2.4",
+            "2.4R1"
+          ],
+          "rules": [
+            {
+              "from": "epsilon",
+              "to": "N_mod.regularization_epsilon"
+            },
+            {
+              "from": "epsilon_range",
+              "to": "N_mod.regularization_epsilon_range"
+            },
+            {
+              "from": "lr_speed",
+              "to": "v_LR"
+            },
+            {
+              "from": "causality.epsilon",
+              "to": "epsilon_caus"
+            },
+            {
+              "from": "delta_local",
+              "to": "delta_chart"
+            },
+            {
+              "from": "delta_lat",
+              "to": "delta_chart"
+            },
+            {
+              "from": "holonomy",
+              "to": "holonomy_lb"
+            },
+            {
+              "from": "H_lb",
+              "to": "holonomy_lb"
+            },
+            {
+              "defaults": {
+                "determinism.rng_name": "Philox",
+                "determinism.dtype": "float64",
+                "determinism.rtol": 1e-10,
+                "determinism.atol": 1e-14,
+                "determinism.ulp_max": 8
+              }
+            },
+            {
+              "defaults": {
+                "H_top.plateau_method": "theil_sen",
+                "H_top.plateau_pmax": 0.1
+              }
+            },
+            {
+              "defaults": {
+                "triage.report.required": true
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "metrics": {
+            "delta_local": "delta_chart",
+            "delta_lat": "delta_chart",
+            "holonomy": "holonomy_lb",
+            "H_lb": "holonomy_lb",
+            "delta_mod": "delta_N"
+          },
+          "params": {
+            "epsilon": "N_mod.regularization_epsilon",
+            "epsilon_range": "N_mod.regularization_epsilon_range",
+            "lr_speed": "v_LR",
+            "causality.epsilon": "epsilon_caus"
+          }
+        },
+        "deprecated": {
+          "remove_in_future": [
+            "lr_speed",
+            "epsilon",
+            "epsilon_range",
+            "delta_local",
+            "delta_lat",
+            "holonomy",
+            "H_lb"
+          ]
+        },
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "missing_placeholders": [
+          "epsilon_caus",
+          "v_LR",
+          "anchor_metric.scales",
+          "windows.tau",
+          "triage.roc.external_set_doi"
+        ]
+      },
+      "atlas:profile:v2.4R2:benchmark": {
+        "id": "atlas:profile:v2.4R2:benchmark",
+        "name": "benchmark",
+        "version": "2.4R2-benchmark",
+        "system_class": "spin",
+        "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+        "tau_delta": 0.15,
+        "tau_n": 0.05,
+        "curvature_threshold": 0.2,
+        "delta_chart": {
+          "norm_bridge": "hs_to_op",
+          "report_op_norm_proxy": true,
+          "distance_metric": "graph",
+          "boundary_convention": "strict_support",
+          "adjoint_convention": "Heisenberg-HS",
+          "op_probe": {
+            "enable": true,
+            "max_iters": 64,
+            "tol": 1e-08,
+            "restarts": 3,
+            "seed": 1337,
+            "on_nonconverge": "INCONCLUSIVE"
+          }
+        },
+        "N_mod": {
+          "kfold": 5,
+          "bootstrap": 1000,
+          "diff_scheme": "central",
+          "h_rel_grid": [
+            0.001,
+            0.003,
+            0.01,
+            0.03
+          ],
+          "richardson_order": 2,
+          "stability_checks": {
+            "split_halves": true,
+            "sign_consistency": true
+          },
+          "regularization_epsilon": 1e-06,
+          "regularization_epsilon_range": [
+            1e-08,
+            0.0001
+          ],
+          "epsilon_scaling": "fixed",
+          "epsilon_h_coupling": null,
+          "extrapolation_guard": {
+            "order_agreement_tol": 0.15,
+            "oscillation_max": 2,
+            "nonanalytic_warn": true,
+            "roc": {
+              "kfold": 5,
+              "min_auc": 0.75,
+              "external_validation_required": true,
+              "external_set_doi": "TBD"
+            }
+          }
+        },
+        "H_top": {
+          "c1_mode": "calibrated",
+          "c2_mode": "grid",
+          "multi_resolution": [
+            1,
+            2,
+            4
+          ],
+          "plateau_tol": 0.1,
+          "plateau_method": "theil_sen",
+          "plateau_pmax": 0.1,
+          "lower_bound_floor": 0.0,
+          "negative_F_sum_policy": "floor_to_zero",
+          "error_budget": {
+            "discretization": {
+              "method": "richardson_remainder",
+              "order": 2,
+              "safety_factor": 1.5
+            },
+            "local_from_delta": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            },
+            "response_from_n": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            }
+          }
+        },
+        "temporal_gauge": {
+          "time_slices": {
+            "delta_t_rel": [
+              0.001,
+              0.003,
+              0.01
+            ]
+          },
+          "loops": {
+            "shapes": [
+              "time-rect"
+            ],
+            "multi_resolution": [
+              1,
+              2,
+              4
+            ],
+            "plateau_tol": 0.1
+          },
+          "boost_axis": {
+            "enable": true
+          },
+          "tg_independence": {
+            "require": true,
+            "frobenius_tol": 0.001,
+            "orthogonality_tol": 1e-06,
+            "log_required": true
+          }
+        },
+        "kms": {
+          "compat_test": {
+            "method": "commutator_bound",
+            "pmax": 0.1
+          },
+          "policy": "geometric_only"
+        },
+        "windows": {
+          "samples": 1024,
+          "tau": "specify in units"
+        },
+        "determinism": {
+          "rng_name": "Philox",
+          "seed": 42,
+          "parallel_mode": "counter",
+          "thread_offset": 1000,
+          "dtype": "float64",
+          "rtol": 1e-10,
+          "atol": 1e-14,
+          "ulp_max": 8,
+          "build": {
+            "fp_contract": "off"
+          }
+        },
+        "provenance": {
+          "require_external_anchor": true,
+          "required_fields": [
+            "source_type",
+            "id_or_doi",
+            "version_or_date",
+            "method",
+            "ci_95"
+          ],
+          "source_type": {
+            "enum": [
+              "theory",
+              "empirical",
+              "literature",
+              "simulation"
+            ],
+            "validation": "strict"
+          },
+          "independence": {
+            "require_non_atlas": true,
+            "allow_independent_atlas_with_digest": true
+          },
+          "sensitivity": {
+            "enabled": true,
+            "method": "monte_carlo",
+            "samples": 100,
+            "vary_within_ci": "95%",
+            "joint_vs_marginal": "joint",
+            "flip_rate_threshold": 0.1,
+            "report_effect_on_passfail": true
+          }
+        },
+        "triage": {
+          "rules": {
+            "true_tear": {
+              "H_plateau": true,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "anomaly": {
+              "H_plateau": false,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "hard_spot": {
+              "H_plateau": true,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            },
+            "fake": {
+              "H_plateau": false,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            }
+          },
+          "priority": [
+            "true_tear",
+            "anomaly",
+            "hard_spot",
+            "fake"
+          ],
+          "confidence": "min(1.0, 0.5*(delta_chart/tau_delta + abs_delta_N/tau_n)) + (0.5 if H_plateau else 0.0)",
+          "report": {
+            "metrics": [
+              "TPR",
+              "FPR",
+              "AUC",
+              "best_J",
+              "ci95"
+            ],
+            "required": true
+          },
+          "roc": {
+            "kfold": 5,
+            "external_validation_required": true,
+            "external_set_doi": "TBD"
+          }
+        },
+        "log_format": {
+          "fields": [
+            "ts",
+            "stage",
+            "metric",
+            "value",
+            "threshold",
+            "status",
+            "notes",
+            "commit",
+            "seed",
+            "thresholds_sha256",
+            "anchor_id"
+          ],
+          "ts_format": "ISO-8601"
+        },
+        "cost_reporting": {
+          "required": true,
+          "fields": [
+            "system_class",
+            "N",
+            "d_r",
+            "bootstrap",
+            "loops",
+            "resolutions",
+            "wall_time_s",
+            "env_hash"
+          ]
+        },
+        "schema_migration": {
+          "from_versions": [
+            "1.95R5",
+            "2.0",
+            "2.0R1",
+            "2.2",
+            "2.3",
+            "2.3R1",
+            "2.4",
+            "2.4R1"
+          ],
+          "rules": [
+            {
+              "from": "epsilon",
+              "to": "N_mod.regularization_epsilon"
+            },
+            {
+              "from": "epsilon_range",
+              "to": "N_mod.regularization_epsilon_range"
+            },
+            {
+              "from": "lr_speed",
+              "to": "v_LR"
+            },
+            {
+              "from": "causality.epsilon",
+              "to": "epsilon_caus"
+            },
+            {
+              "from": "delta_local",
+              "to": "delta_chart"
+            },
+            {
+              "from": "delta_lat",
+              "to": "delta_chart"
+            },
+            {
+              "from": "holonomy",
+              "to": "holonomy_lb"
+            },
+            {
+              "from": "H_lb",
+              "to": "holonomy_lb"
+            },
+            {
+              "defaults": {
+                "determinism.rng_name": "Philox",
+                "determinism.dtype": "float64",
+                "determinism.rtol": 1e-10,
+                "determinism.atol": 1e-14,
+                "determinism.ulp_max": 8
+              }
+            },
+            {
+              "defaults": {
+                "H_top.plateau_method": "theil_sen",
+                "H_top.plateau_pmax": 0.1
+              }
+            },
+            {
+              "defaults": {
+                "triage.report.required": true
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "metrics": {
+            "delta_local": "delta_chart",
+            "delta_lat": "delta_chart",
+            "holonomy": "holonomy_lb",
+            "H_lb": "holonomy_lb",
+            "delta_mod": "delta_N"
+          },
+          "params": {
+            "epsilon": "N_mod.regularization_epsilon",
+            "epsilon_range": "N_mod.regularization_epsilon_range",
+            "lr_speed": "v_LR",
+            "causality.epsilon": "epsilon_caus"
+          }
+        },
+        "deprecated": {
+          "remove_in_future": [
+            "lr_speed",
+            "epsilon",
+            "epsilon_range",
+            "delta_local",
+            "delta_lat",
+            "holonomy",
+            "H_lb"
+          ]
+        },
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "missing_placeholders": [
+          "epsilon_caus",
+          "v_LR",
+          "anchor_metric.scales",
+          "windows.tau",
+          "triage.roc.external_set_doi"
+        ]
+      },
+      "atlas:profile:v2.4R2:hpc": {
+        "id": "atlas:profile:v2.4R2:hpc",
+        "name": "hpc",
+        "version": "2.4R2-hpc",
+        "system_class": "spin",
+        "canonical_path": "configs/ATLAS_thresholds_v2.4R2.json",
+        "thresholds_sha256": "0e2e93649de1d95cc468ade6d7ecfaa018c5133eea045b6d5926891895c90c2c",
+        "tau_delta": 0.15,
+        "tau_n": 0.05,
+        "curvature_threshold": 0.2,
+        "delta_chart": {
+          "norm_bridge": "hs_to_op",
+          "report_op_norm_proxy": true,
+          "distance_metric": "graph",
+          "boundary_convention": "strict_support",
+          "adjoint_convention": "Heisenberg-HS",
+          "op_probe": {
+            "enable": true,
+            "max_iters": 64,
+            "tol": 1e-08,
+            "restarts": 3,
+            "seed": 1337,
+            "on_nonconverge": "INCONCLUSIVE"
+          }
+        },
+        "N_mod": {
+          "kfold": 5,
+          "bootstrap": 1000,
+          "diff_scheme": "central",
+          "h_rel_grid": [
+            0.001,
+            0.003,
+            0.01,
+            0.03
+          ],
+          "richardson_order": 2,
+          "stability_checks": {
+            "split_halves": true,
+            "sign_consistency": true
+          },
+          "regularization_epsilon": 1e-06,
+          "regularization_epsilon_range": [
+            1e-08,
+            0.0001
+          ],
+          "epsilon_scaling": "fixed",
+          "epsilon_h_coupling": null,
+          "extrapolation_guard": {
+            "order_agreement_tol": 0.15,
+            "oscillation_max": 2,
+            "nonanalytic_warn": true,
+            "roc": {
+              "kfold": 5,
+              "min_auc": 0.75,
+              "external_validation_required": true,
+              "external_set_doi": "TBD"
+            }
+          }
+        },
+        "H_top": {
+          "c1_mode": "calibrated",
+          "c2_mode": "grid",
+          "multi_resolution": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "plateau_tol": 0.1,
+          "plateau_method": "theil_sen",
+          "plateau_pmax": 0.1,
+          "lower_bound_floor": 0.0,
+          "negative_F_sum_policy": "floor_to_zero",
+          "error_budget": {
+            "discretization": {
+              "method": "richardson_remainder",
+              "order": 2,
+              "safety_factor": 1.5
+            },
+            "local_from_delta": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            },
+            "response_from_n": {
+              "functional_form": "linear",
+              "coefficient": "from_calibration"
+            }
+          }
+        },
+        "temporal_gauge": {
+          "time_slices": {
+            "delta_t_rel": [
+              0.001,
+              0.003,
+              0.01
+            ]
+          },
+          "loops": {
+            "shapes": [
+              "time-rect"
+            ],
+            "multi_resolution": [
+              1,
+              2,
+              4
+            ],
+            "plateau_tol": 0.1
+          },
+          "boost_axis": {
+            "enable": true
+          },
+          "tg_independence": {
+            "require": true,
+            "frobenius_tol": 0.001,
+            "orthogonality_tol": 1e-06,
+            "log_required": true
+          }
+        },
+        "kms": {
+          "compat_test": {
+            "method": "commutator_bound",
+            "pmax": 0.1
+          },
+          "policy": "geometric_only"
+        },
+        "windows": {
+          "samples": 4096,
+          "tau": "specify in units"
+        },
+        "determinism": {
+          "rng_name": "Philox",
+          "seed": 42,
+          "parallel_mode": "counter",
+          "thread_offset": 1000,
+          "dtype": "float64",
+          "rtol": 1e-09,
+          "atol": 1e-13,
+          "ulp_max": 16,
+          "build": {
+            "fp_contract": "off"
+          }
+        },
+        "provenance": {
+          "require_external_anchor": true,
+          "required_fields": [
+            "source_type",
+            "id_or_doi",
+            "version_or_date",
+            "method",
+            "ci_95"
+          ],
+          "source_type": {
+            "enum": [
+              "theory",
+              "empirical",
+              "literature",
+              "simulation"
+            ],
+            "validation": "strict"
+          },
+          "independence": {
+            "require_non_atlas": true,
+            "allow_independent_atlas_with_digest": true
+          },
+          "sensitivity": {
+            "enabled": true,
+            "method": "monte_carlo",
+            "samples": 100,
+            "vary_within_ci": "95%",
+            "joint_vs_marginal": "joint",
+            "flip_rate_threshold": 0.1,
+            "report_effect_on_passfail": true
+          }
+        },
+        "triage": {
+          "rules": {
+            "true_tear": {
+              "H_plateau": true,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "anomaly": {
+              "H_plateau": false,
+              "any_of": [
+                "delta_chart>tau_delta",
+                "abs_delta_N>tau_n"
+              ]
+            },
+            "hard_spot": {
+              "H_plateau": true,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            },
+            "fake": {
+              "H_plateau": false,
+              "all_of": [
+                "delta_chart<=tau_delta",
+                "abs_delta_N<=tau_n"
+              ]
+            }
+          },
+          "priority": [
+            "true_tear",
+            "anomaly",
+            "hard_spot",
+            "fake"
+          ],
+          "confidence": "min(1.0, 0.5*(delta_chart/tau_delta + abs_delta_N/tau_n)) + (0.5 if H_plateau else 0.0)",
+          "report": {
+            "metrics": [
+              "TPR",
+              "FPR",
+              "AUC",
+              "best_J",
+              "ci95"
+            ],
+            "required": true
+          },
+          "roc": {
+            "kfold": 5,
+            "external_validation_required": true,
+            "external_set_doi": "TBD"
+          }
+        },
+        "log_format": {
+          "fields": [
+            "ts",
+            "stage",
+            "metric",
+            "value",
+            "threshold",
+            "status",
+            "notes",
+            "commit",
+            "seed",
+            "thresholds_sha256",
+            "anchor_id"
+          ],
+          "ts_format": "ISO-8601"
+        },
+        "cost_reporting": {
+          "required": true,
+          "fields": [
+            "system_class",
+            "N",
+            "d_r",
+            "bootstrap",
+            "loops",
+            "resolutions",
+            "wall_time_s",
+            "env_hash"
+          ]
+        },
+        "schema_migration": {
+          "from_versions": [
+            "1.95R5",
+            "2.0",
+            "2.0R1",
+            "2.2",
+            "2.3",
+            "2.3R1",
+            "2.4",
+            "2.4R1"
+          ],
+          "rules": [
+            {
+              "from": "epsilon",
+              "to": "N_mod.regularization_epsilon"
+            },
+            {
+              "from": "epsilon_range",
+              "to": "N_mod.regularization_epsilon_range"
+            },
+            {
+              "from": "lr_speed",
+              "to": "v_LR"
+            },
+            {
+              "from": "causality.epsilon",
+              "to": "epsilon_caus"
+            },
+            {
+              "from": "delta_local",
+              "to": "delta_chart"
+            },
+            {
+              "from": "delta_lat",
+              "to": "delta_chart"
+            },
+            {
+              "from": "holonomy",
+              "to": "holonomy_lb"
+            },
+            {
+              "from": "H_lb",
+              "to": "holonomy_lb"
+            },
+            {
+              "defaults": {
+                "determinism.rng_name": "Philox",
+                "determinism.dtype": "float64",
+                "determinism.rtol": 1e-10,
+                "determinism.atol": 1e-14,
+                "determinism.ulp_max": 8
+              }
+            },
+            {
+              "defaults": {
+                "H_top.plateau_method": "theil_sen",
+                "H_top.plateau_pmax": 0.1
+              }
+            },
+            {
+              "defaults": {
+                "triage.report.required": true
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "metrics": {
+            "delta_local": "delta_chart",
+            "delta_lat": "delta_chart",
+            "holonomy": "holonomy_lb",
+            "H_lb": "holonomy_lb",
+            "delta_mod": "delta_N"
+          },
+          "params": {
+            "epsilon": "N_mod.regularization_epsilon",
+            "epsilon_range": "N_mod.regularization_epsilon_range",
+            "lr_speed": "v_LR",
+            "causality.epsilon": "epsilon_caus"
+          }
+        },
+        "deprecated": {
+          "remove_in_future": [
+            "lr_speed",
+            "epsilon",
+            "epsilon_range",
+            "delta_local",
+            "delta_lat",
+            "holonomy",
+            "H_lb"
+          ]
+        },
+        "state": "PROVISIONAL",
+        "compliance": "CONFORMANT",
+        "missing_placeholders": [
+          "epsilon_caus",
+          "v_LR",
+          "anchor_metric.scales",
+          "windows.tau",
+          "triage.roc.external_set_doi"
+        ]
+      }
+    },
+    "aliases": {
+      "default": "atlas:profile:v2.4R2:default",
+      "標準": "atlas:profile:v2.4R2:default",
+      "レビューア": "atlas:profile:v2.4R2:reviewer",
+      "reviewer": "atlas:profile:v2.4R2:reviewer",
+      "学生": "atlas:profile:v2.4R2:student",
+      "student": "atlas:profile:v2.4R2:student",
+      "ベンチマーク": "atlas:profile:v2.4R2:benchmark",
+      "benchmark": "atlas:profile:v2.4R2:benchmark",
+      "HPC": "atlas:profile:v2.4R2:hpc",
+      "ハイパフォーマンス": "atlas:profile:v2.4R2:hpc"
+    },
+    "migration_map": {
+      "from_versions": [
+        "1.95R5",
+        "2.0",
+        "2.0R1",
+        "2.2",
+        "2.3",
+        "2.3R1",
+        "2.4",
+        "2.4R1"
+      ],
+      "rules": [
+        {
+          "from": "epsilon",
+          "to": "N_mod.regularization_epsilon"
+        },
+        {
+          "from": "epsilon_range",
+          "to": "N_mod.regularization_epsilon_range"
+        },
+        {
+          "from": "lr_speed",
+          "to": "v_LR"
+        },
+        {
+          "from": "causality.epsilon",
+          "to": "epsilon_caus"
+        },
+        {
+          "from": "delta_local",
+          "to": "delta_chart"
+        },
+        {
+          "from": "delta_lat",
+          "to": "delta_chart"
+        },
+        {
+          "from": "holonomy",
+          "to": "holonomy_lb"
+        },
+        {
+          "from": "H_lb",
+          "to": "holonomy_lb"
+        },
+        {
+          "defaults": {
+            "determinism.rng_name": "Philox",
+            "determinism.dtype": "float64",
+            "determinism.rtol": 1e-10,
+            "determinism.atol": 1e-14,
+            "determinism.ulp_max": 8
+          }
+        },
+        {
+          "defaults": {
+            "H_top.plateau_method": "theil_sen",
+            "H_top.plateau_pmax": 0.1
+          }
+        },
+        {
+          "defaults": {
+            "triage.report.required": true
+          }
+        }
+      ]
+    },
+    "health": {
+      "version_file": true,
+      "latest_bullet": true,
+      "thresholds_meta_match": true,
+      "warnings": []
+    }
+  }
+}
