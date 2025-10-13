@@ -1,0 +1,8 @@
+{
+  "schema": "atlas-xval-1.0",
+  "external": {
+    "name": "external/test",
+    "ids_file": "eval/labels.csv",
+    "description": "IDs referenced by labels.csv and scores.csv; ensure 1:1 mapping."
+  }
+}

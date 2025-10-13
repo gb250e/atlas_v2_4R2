@@ -1,0 +1,29 @@
+{
+  "title": "ATLAS External Validation Pack (v2.4R2) — REPLACE WITH YOUR TITLE",
+  "upload_type": "dataset",
+  "description": "External validation dataset for ATLAS v2.4R2 ROC testing. Include methodology, CI computation, and exact split. See docs/dataset_card.md.",
+  "creators": [
+    {
+      "name": "Lastname, Firstname",
+      "affiliation": "Your Org"
+    }
+  ],
+  "keywords": [
+    "ATLAS",
+    "external validation",
+    "ROC",
+    "v2.4R2"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "notes": "Provide version-specific DOI. Use this JSON as a guide; paste into Zenodo form or keep as a record.",
+  "related_identifiers": [
+    {
+      "identifier": "10.XXXX/your-related-paper-or-code",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2025-10-11"
+}

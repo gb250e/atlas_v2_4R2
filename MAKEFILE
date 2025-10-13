@@ -1,0 +1,10 @@
+# 1) 最小の Makefile を生成（<TAB> を実タブに置換）
+cat > Makefile <<'MK'
+SHELL := bash
+.ONESHELL:
+.SHELLFLAGS := -Eeuo pipefail -c
+.PHONY: roc-ci
+roc-ci:
+<TAB>@echo "hello from roc-ci"
+MK
+awk '{gsub(/<TAB>/,"\t")}1' Makefile > Makefile.tmp && mv Makefile.tmp Makefile

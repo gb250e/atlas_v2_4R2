@@ -1,0 +1,11 @@
+{
+  "pack_name": "ATLAS_External_Validation_Pack_v2.4R2_TEMPLATE",
+  "pack_version": "1.0.0",
+  "created_utc": "2025-10-11T16:12:21.398437Z",
+  "profile_hint": "reviewer",
+  "thresholds_sha256": "REPLACE_ME_AFTER_UPLOAD",
+  "notes": "Fill zenodo DOI and thresholds_sha256 after publishing.",
+  "figure_hint": [
+    "F6_roc"
+  ]
+}

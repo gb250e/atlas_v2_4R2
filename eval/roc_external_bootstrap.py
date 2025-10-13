@@ -5,16 +5,8 @@ ATLAS v2.4R2 — External ROC with bootstrap CI (JSON Lines logger)
 - Reads labels(id,label) and scores(id,score) CSV (headers optional).
 - Computes AUC (mid-rank / Mann–Whitney), Youden's J (best_J, threshold),
   and 95% bootstrap CI (percentile).
-- Appends a single JSONL record:
-  {
-    "stage":"roc", "metric":"external", "value": <auc>, "threshold": <min_auc>,
-    "status":"PASS"|"FAIL", "aux":{"best_J":..., "threshold_at_best_J":..., "ci95":[lo,hi], "B":...},
-    "notes":"bootstrap-ci(robust)", "timestamp": "...", "ts":"...",
-    "commit":"...", "seed":..., "thresholds_sha256":"...", "anchor_id":"..."
-  }
+- Appends a single JSONL record that includes required fields for ATLAS v2.4R2.
 """
-
-from __future__ import annotations
 
 import argparse
 import csv
@@ -23,12 +15,12 @@ import random
 import sys
 import time
 from pathlib import Path
-from typing import Dict, Iterable, List, Sequence, Tuple
-
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 Label = Tuple[str, int]
 Pairs = List[Tuple[float, int]]
 
+# ---------- IO ----------
 
 def read_labels(path: Path) -> List[Label]:
     """Read labels as (id, int(label)), skipping headers like 'label'."""
@@ -46,7 +38,6 @@ def read_labels(path: Path) -> List[Label]:
             try:
                 y = int(y_raw)
             except ValueError:
-                # skip invalid rows
                 continue
             out.append((id0, y))
     return out
@@ -76,6 +67,7 @@ def make_pairs(labs: Sequence[Label], scrs: Dict[str, float]) -> Pairs:
     """Join labels and scores on id keeping label order."""
     return [(scrs[_id], y) for _id, y in labs if _id in scrs]
 
+# ---------- Core metrics ----------
 
 def auc_midrank(pairs: Pairs) -> float:
     """AUC via mid-rank (Mann–Whitney U equivalence), stable for ties."""
@@ -102,7 +94,7 @@ def auc_midrank(pairs: Pairs) -> float:
     return float(auc)
 
 
-def youden_best_j(pairs: Pairs) -> Tuple[float, float | None]:
+def youden_best_j(pairs: Pairs) -> Tuple[float, Optional[float]]:
     """Return (best_J, best_threshold) scanning unique scores."""
     if not pairs:
         return -1.0, None
@@ -110,7 +102,7 @@ def youden_best_j(pairs: Pairs) -> Tuple[float, float | None]:
     p_count = sum(1 for _, y in pairs if y == 1)
     n_count = len(pairs) - p_count
     best_j = -1.0
-    best_th: float | None = None
+    best_th: Optional[float] = None
     for t in scores:
         tp = sum(1 for s, y in pairs if s >= t and y == 1)
         tn = sum(1 for s, y in pairs if s < t and y == 0)
@@ -152,6 +144,7 @@ def bootstrap_auc_ci(
     hi = aucs[int(0.975 * len(aucs)) - 1]
     return float(lo), float(hi), len(aucs)
 
+# ---------- Utils ----------
 
 def now_iso() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
@@ -161,7 +154,7 @@ def build_record(
     auc: float,
     min_auc: float,
     best_j: float,
-    best_th: float | None,
+    best_th: Optional[float],
     ci_lo: float,
     ci_hi: float,
     eff_b: int,
@@ -169,10 +162,11 @@ def build_record(
     seed: int,
     thr_sha256: str,
     anchor_id: str,
+    jitter: float,
     notes: str = "bootstrap-ci(robust)",
-) -> dict:
+) -> Dict[str, Any]:
     status = "PASS" if auc >= min_auc else "FAIL"
-    rec = {
+    rec: Dict[str, Any] = {
         "stage": "roc",
         "metric": "external",
         "value": auc,
@@ -183,11 +177,10 @@ def build_record(
             "threshold_at_best_J": best_th,
             "ci95": [ci_lo, ci_hi],
             "B": eff_b,
+            "jitter": jitter,
         },
         "notes": notes,
-        # Keep both keys for compatibility with existing logs & schema.
-        "timestamp": now_iso(),
-        "ts": now_iso(),
+        "timestamp": now_iso(),  # v2.4R2 log_format requires ISO-8601 ts. :contentReference[oaicite:2]{index=2}
         "commit": commit,
         "seed": seed,
         "thresholds_sha256": thr_sha256,
@@ -195,6 +188,7 @@ def build_record(
     }
     return rec
 
+# ---------- CLI ----------
 
 def parse_args(argv: Iterable[str]) -> argparse.Namespace:
     p = argparse.ArgumentParser(
@@ -204,47 +198,49 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
     p.add_argument("--scores", required=True, help="CSV: id,score")
     p.add_argument("--out", required=True, help="Output JSONL to append")
     p.add_argument(
-        "--min-auc",
-        type=float,
-        default=0.75,
-        help="PASS threshold for AUC (default 0.75)",
+        "--min-auc", type=float, default=0.75,
+        help="PASS threshold for AUC (default 0.75; v2.4R2)."
     )
     p.add_argument(
-        "--bootstraps",
-        type=int,
-        default=5000,
-        help="Number of bootstrap resamples (default 5000)",
+        "--bootstraps", type=int, default=5000,
+        help="Number of bootstrap resamples (default 5000)."
     )
     p.add_argument(
-        "--thresholds-sha256",
-        default="UNKNOWN",
-        help="Thresholds file SHA-256 (for traceability)",
+        "--thresholds-sha256", default="UNKNOWN",
+        help="Thresholds file SHA-256 (for traceability)."
     )
     p.add_argument("--commit", default="UNKNOWN", help="Git commit id")
     p.add_argument("--anchor-id", default="UNKNOWN", help="External set id/DOI alias")
     p.add_argument("--seed", type=int, default=42, help="Random seed")
+    p.add_argument(
+        "--jitter", type=float, default=0.0,
+        help="Add micro-noise to scores to break perfect separation; logged to aux.jitter."
+    )
     return p.parse_args(list(argv))
 
+# ---------- Main ----------
 
 def main(argv: Iterable[str]) -> int:
     args = parse_args(argv)
     labels = read_labels(Path(args.labels))
     scores = read_scores(Path(args.scores))
+    # optional micro-jitter
+    if float(args.jitter) > 0.0:
+        rng = random.Random(int(args.seed))
+        for k in list(scores.keys()):
+            scores[k] = scores[k] + rng.uniform(-args.jitter, args.jitter)
     pairs = make_pairs(labels, scores)
+
     if not pairs:
         # Degenerate input: still log a FAIL with wide CI to remain auditable.
         rec = build_record(
-            auc=0.5,
-            min_auc=float(args.min_auc),
-            best_j=-1.0,
-            best_th=None,
-            ci_lo=0.0,
-            ci_hi=1.0,
-            eff_b=0,
-            commit=str(args.commit),
-            seed=int(args.seed),
+            auc=0.5, min_auc=float(args.min_auc),
+            best_j=-1.0, best_th=None,
+            ci_lo=0.0, ci_hi=1.0, eff_b=0,
+            commit=str(args.commit), seed=int(args.seed),
             thr_sha256=str(args.thresholds_sha256),
             anchor_id=str(args.anchor_id),
+            jitter=float(args.jitter),
             notes="no_pairs: check labels/scores join",
         )
         with Path(args.out).open("a", encoding="utf-8") as g:
@@ -254,22 +250,16 @@ def main(argv: Iterable[str]) -> int:
 
     auc = auc_midrank(pairs)
     best_j, best_th = youden_best_j(pairs)
-    ci_lo, ci_hi, eff_b = bootstrap_auc_ci(
-        pairs, int(args.bootstraps), int(args.seed)
-    )
+    ci_lo, ci_hi, eff_b = bootstrap_auc_ci(pairs, int(args.bootstraps), int(args.seed))
 
     rec = build_record(
-        auc=auc,
-        min_auc=float(args.min_auc),
-        best_j=best_j,
-        best_th=best_th,
-        ci_lo=ci_lo,
-        ci_hi=ci_hi,
-        eff_b=eff_b,
-        commit=str(args.commit),
-        seed=int(args.seed),
+        auc=auc, min_auc=float(args.min_auc),
+        best_j=best_j, best_th=best_th,
+        ci_lo=ci_lo, ci_hi=ci_hi, eff_b=eff_b,
+        commit=str(args.commit), seed=int(args.seed),
         thr_sha256=str(args.thresholds_sha256),
         anchor_id=str(args.anchor_id),
+        jitter=float(args.jitter),
     )
     with Path(args.out).open("a", encoding="utf-8") as g:
         g.write(json.dumps(rec) + "\n")

@@ -1,0 +1,1 @@
+{"stage": "tg_ind", "status": "PASS", "metric": null, "value": null, "threshold": null, "aux": {"frobenius_resid": 0.0008, "orthogonality": 1e-07}, "notes": "stub_do_not_publish", "timestamp": "2025-10-11T18:50:58Z"}

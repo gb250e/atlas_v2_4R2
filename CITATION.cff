@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this external validation pack, please cite it as below."
+title: "ATLAS External Validation Pack (v2.4R2) — REPLACE"
+authors:
+  - family-names: Lastname
+    given-names: Firstname
+version: "1.0.0"
+doi: "10.5281/zenodo.REPLACE"
+date-released: "2025-10-11"

@@ -1,0 +1,6 @@
+SHELL := bash
+.ONESHELL:
+.SHELLFLAGS := -Eeuo pipefail -c
+.PHONY: roc-ci
+roc-ci:
+	@echo "hello from roc-ci"
