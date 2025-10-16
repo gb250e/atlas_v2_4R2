@@ -1,0 +1,1 @@
+{"stage": "tg_ind", "status": "FAIL", "metric": null, "value": null, "threshold": null, "aux": {"frobenius_resid": 0.005, "orthogonality": 0.0001}, "notes": "intentional fail: exceed \u03c4_Frob=1e-3 and \u03c4_orth=1e-6 (v2.4R2)", "timestamp": "2025-10-16T02:43:41Z"}
